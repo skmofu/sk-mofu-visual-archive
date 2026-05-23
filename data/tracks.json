@@ -5,7 +5,7 @@
       "K.S_mofu"
     ],
     "source": "/Users/s.k_mofu/distrokid_db.json",
-    "generated_at": "2026-05-23T15:27:52+09:00",
+    "generated_at": "2026-05-23T16:51:20+09:00",
     "tracks": 100,
     "languages": {
       "ja": 50,
@@ -68,13 +68,13 @@
         "name": "Falling stars",
         "range": "001-020"
       },
-      "release_date": "2025-07-25",
+      "release_date": "2025-06-03",
       "single_number": 1,
       "single_label": "001 single",
-      "apple_collection_id": "1825870044",
+      "apple_collection_id": "1817108880",
       "spotify_url": "https://open.spotify.com/album/10qTrfTYG35jPS0XU80vUJ",
-      "apple_url": "https://music.apple.com/us/album/%E5%B4%A9%E3%82%8C%E3%81%9F%E6%98%9F/1825870044?uo=4&app=music&at=1001lry3&ct=dashboard",
-      "apple_link_corrected": false,
+      "apple_url": "https://music.apple.com/us/album/%E5%B4%A9%E3%82%8C%E3%81%9F%E6%98%9F-single/1817108880?uo=4",
+      "apple_link_corrected": true,
       "x_release_url": "https://x.com/mofu_skks/status/1929697311678255332",
       "x_teaser_url": "https://x.com/mofu_skks/status/1942188245523304495",
       "has_lyrics": true,
@@ -90,8 +90,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 2,
-      "release_no": 19,
-      "release_no_label": "No. 019"
+      "release_order": 1,
+      "release_order_label": "Release order 001",
+      "release_no": 1,
+      "release_no_label": "No. 001"
     },
     {
       "track_num": 2,
@@ -103,13 +105,13 @@
         "name": "Falling stars",
         "range": "001-020"
       },
-      "release_date": "2025-07-25",
+      "release_date": "2025-06-03",
       "single_number": 2,
       "single_label": "002 single",
-      "apple_collection_id": "1825858497",
+      "apple_collection_id": "1817134284",
       "spotify_url": "https://open.spotify.com/album/0oQ54xZ9fxnH4wjwdPwQoX",
-      "apple_url": "https://music.apple.com/us/album/shatteredstar/1825858497?uo=4&app=music&at=1001lry3&ct=dashboard",
-      "apple_link_corrected": false,
+      "apple_url": "https://music.apple.com/us/album/shatteredstar-single/1817134284?uo=4",
+      "apple_link_corrected": true,
       "x_release_url": "https://x.com/mofu_skks/status/1929698165730824525",
       "x_teaser_url": "https://x.com/mofu_skks/status/2049754260825587892",
       "has_lyrics": true,
@@ -125,8 +127,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 1,
-      "release_no": 20,
-      "release_no_label": "No. 020"
+      "release_order": 2,
+      "release_order_label": "Release order 002",
+      "release_no": 2,
+      "release_no_label": "No. 002"
     },
     {
       "track_num": 3,
@@ -160,8 +164,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 4,
-      "release_no": 1,
-      "release_no_label": "No. 001"
+      "release_order": 3,
+      "release_order_label": "Release order 003",
+      "release_no": 3,
+      "release_no_label": "No. 003"
     },
     {
       "track_num": 4,
@@ -195,8 +201,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 3,
-      "release_no": 2,
-      "release_no_label": "No. 002"
+      "release_order": 4,
+      "release_order_label": "Release order 004",
+      "release_no": 4,
+      "release_no_label": "No. 004"
     },
     {
       "track_num": 5,
@@ -230,8 +238,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 6,
-      "release_no": 3,
-      "release_no_label": "No. 003"
+      "release_order": 5,
+      "release_order_label": "Release order 005",
+      "release_no": 5,
+      "release_no_label": "No. 005"
     },
     {
       "track_num": 6,
@@ -265,8 +275,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 5,
-      "release_no": 4,
-      "release_no_label": "No. 004"
+      "release_order": 6,
+      "release_order_label": "Release order 006",
+      "release_no": 6,
+      "release_no_label": "No. 006"
     },
     {
       "track_num": 7,
@@ -300,8 +312,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 8,
-      "release_no": 5,
-      "release_no_label": "No. 005"
+      "release_order": 7,
+      "release_order_label": "Release order 007",
+      "release_no": 7,
+      "release_no_label": "No. 007"
     },
     {
       "track_num": 8,
@@ -335,8 +349,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 7,
-      "release_no": 6,
-      "release_no_label": "No. 006"
+      "release_order": 8,
+      "release_order_label": "Release order 008",
+      "release_no": 8,
+      "release_no_label": "No. 008"
     },
     {
       "track_num": 9,
@@ -370,8 +386,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 10,
-      "release_no": 7,
-      "release_no_label": "No. 007"
+      "release_order": 9,
+      "release_order_label": "Release order 009",
+      "release_no": 9,
+      "release_no_label": "No. 009"
     },
     {
       "track_num": 10,
@@ -405,8 +423,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 9,
-      "release_no": 8,
-      "release_no_label": "No. 008"
+      "release_order": 10,
+      "release_order_label": "Release order 010",
+      "release_no": 10,
+      "release_no_label": "No. 010"
     },
     {
       "track_num": 11,
@@ -440,6 +460,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 12,
+      "release_order": 13,
+      "release_order_label": "Release order 013",
       "release_no": 11,
       "release_no_label": "No. 011"
     },
@@ -475,6 +497,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 11,
+      "release_order": 14,
+      "release_order_label": "Release order 014",
       "release_no": 12,
       "release_no_label": "No. 012"
     },
@@ -510,6 +534,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 14,
+      "release_order": 15,
+      "release_order_label": "Release order 015",
       "release_no": 13,
       "release_no_label": "No. 013"
     },
@@ -545,6 +571,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 13,
+      "release_order": 16,
+      "release_order_label": "Release order 016",
       "release_no": 14,
       "release_no_label": "No. 014"
     },
@@ -580,8 +608,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 16,
-      "release_no": 9,
-      "release_no_label": "No. 009"
+      "release_order": 11,
+      "release_order_label": "Release order 011",
+      "release_no": 15,
+      "release_no_label": "No. 015"
     },
     {
       "track_num": 16,
@@ -615,8 +645,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 15,
-      "release_no": 10,
-      "release_no_label": "No. 010"
+      "release_order": 12,
+      "release_order_label": "Release order 012",
+      "release_no": 16,
+      "release_no_label": "No. 016"
     },
     {
       "track_num": 17,
@@ -650,8 +682,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 18,
-      "release_no": 15,
-      "release_no_label": "No. 015"
+      "release_order": 17,
+      "release_order_label": "Release order 017",
+      "release_no": 17,
+      "release_no_label": "No. 017"
     },
     {
       "track_num": 18,
@@ -685,8 +719,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 17,
-      "release_no": 16,
-      "release_no_label": "No. 016"
+      "release_order": 18,
+      "release_order_label": "Release order 018",
+      "release_no": 18,
+      "release_no_label": "No. 018"
     },
     {
       "track_num": 19,
@@ -720,8 +756,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 20,
-      "release_no": 17,
-      "release_no_label": "No. 017"
+      "release_order": 19,
+      "release_order_label": "Release order 019",
+      "release_no": 19,
+      "release_no_label": "No. 019"
     },
     {
       "track_num": 20,
@@ -755,8 +793,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 19,
-      "release_no": 18,
-      "release_no_label": "No. 018"
+      "release_order": 20,
+      "release_order_label": "Release order 020",
+      "release_no": 20,
+      "release_no_label": "No. 020"
     },
     {
       "track_num": 21,
@@ -768,13 +808,13 @@
         "name": "Memory dust",
         "range": "021-040"
       },
-      "release_date": "2025-08-22",
+      "release_date": "2025-07-20",
       "single_number": 21,
       "single_label": "021 single",
-      "apple_collection_id": "1841782807",
+      "apple_collection_id": "1826954402",
       "spotify_url": "https://open.spotify.com/album/5qdXH4Imo2kKwGeuagCgou",
-      "apple_url": "https://music.apple.com/us/album/%E7%B4%99%E3%81%8D%E3%82%8C%E3%81%AE%E8%AA%93%E3%81%84/1841782807?uo=4&app=music&at=1001lry3&ct=dashboard",
-      "apple_link_corrected": false,
+      "apple_url": "https://music.apple.com/us/album/%E7%B4%99%E3%81%8D%E3%82%8C%E3%81%AE%E8%AA%93%E3%81%84-single/1826954402?uo=4",
+      "apple_link_corrected": true,
       "x_release_url": "https://x.com/mofu_skks/status/1974129507369173318",
       "x_teaser_url": "https://x.com/mofu_skks/status/2050866693082431647",
       "has_lyrics": true,
@@ -790,8 +830,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 22,
-      "release_no": 29,
-      "release_no_label": "No. 029"
+      "release_order": 21,
+      "release_order_label": "Release order 021",
+      "release_no": 21,
+      "release_no_label": "No. 021"
     },
     {
       "track_num": 22,
@@ -803,13 +845,13 @@
         "name": "Memory dust",
         "range": "021-040"
       },
-      "release_date": "2025-10-01",
+      "release_date": "2025-07-20",
       "single_number": 22,
       "single_label": "022 single",
-      "apple_collection_id": "1841815270",
+      "apple_collection_id": "1827794386",
       "spotify_url": "https://open.spotify.com/album/3wdhjldTARYMEvsCDvcSCY",
-      "apple_url": "https://music.apple.com/us/album/rust-stained-prayers/1841815270?uo=4&app=music&at=1001lry3&ct=dashboard",
-      "apple_link_corrected": false,
+      "apple_url": "https://music.apple.com/us/album/rust-stained-prayers-single/1827794386?uo=4",
+      "apple_link_corrected": true,
       "x_release_url": "https://x.com/mofu_skks/status/1946913949477458183",
       "x_teaser_url": "https://x.com/mofu_skks/status/2050927142092116049",
       "has_lyrics": true,
@@ -825,8 +867,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 21,
-      "release_no": 40,
-      "release_no_label": "No. 040"
+      "release_order": 22,
+      "release_order_label": "Release order 022",
+      "release_no": 22,
+      "release_no_label": "No. 022"
     },
     {
       "track_num": 23,
@@ -860,8 +904,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 24,
-      "release_no": 21,
-      "release_no_label": "No. 021"
+      "release_order": 23,
+      "release_order_label": "Release order 023",
+      "release_no": 23,
+      "release_no_label": "No. 023"
     },
     {
       "track_num": 24,
@@ -895,8 +941,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 23,
-      "release_no": 22,
-      "release_no_label": "No. 022"
+      "release_order": 24,
+      "release_order_label": "Release order 024",
+      "release_no": 24,
+      "release_no_label": "No. 024"
     },
     {
       "track_num": 25,
@@ -930,8 +978,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 26,
-      "release_no": 23,
-      "release_no_label": "No. 023"
+      "release_order": 25,
+      "release_order_label": "Release order 025",
+      "release_no": 25,
+      "release_no_label": "No. 025"
     },
     {
       "track_num": 26,
@@ -965,8 +1015,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 25,
-      "release_no": 24,
-      "release_no_label": "No. 024"
+      "release_order": 26,
+      "release_order_label": "Release order 026",
+      "release_no": 26,
+      "release_no_label": "No. 026"
     },
     {
       "track_num": 27,
@@ -1000,8 +1052,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 28,
-      "release_no": 25,
-      "release_no_label": "No. 025"
+      "release_order": 27,
+      "release_order_label": "Release order 027",
+      "release_no": 27,
+      "release_no_label": "No. 027"
     },
     {
       "track_num": 28,
@@ -1035,8 +1089,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 27,
-      "release_no": 26,
-      "release_no_label": "No. 026"
+      "release_order": 28,
+      "release_order_label": "Release order 028",
+      "release_no": 28,
+      "release_no_label": "No. 028"
     },
     {
       "track_num": 29,
@@ -1070,8 +1126,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 30,
-      "release_no": 27,
-      "release_no_label": "No. 027"
+      "release_order": 29,
+      "release_order_label": "Release order 029",
+      "release_no": 29,
+      "release_no_label": "No. 029"
     },
     {
       "track_num": 30,
@@ -1105,8 +1163,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 29,
-      "release_no": 28,
-      "release_no_label": "No. 028"
+      "release_order": 30,
+      "release_order_label": "Release order 030",
+      "release_no": 30,
+      "release_no_label": "No. 030"
     },
     {
       "track_num": 31,
@@ -1140,8 +1200,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 32,
-      "release_no": 30,
-      "release_no_label": "No. 030"
+      "release_order": 31,
+      "release_order_label": "Release order 031",
+      "release_no": 31,
+      "release_no_label": "No. 031"
     },
     {
       "track_num": 32,
@@ -1175,8 +1237,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 31,
-      "release_no": 31,
-      "release_no_label": "No. 031"
+      "release_order": 32,
+      "release_order_label": "Release order 032",
+      "release_no": 32,
+      "release_no_label": "No. 032"
     },
     {
       "track_num": 33,
@@ -1210,8 +1274,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 34,
-      "release_no": 32,
-      "release_no_label": "No. 032"
+      "release_order": 33,
+      "release_order_label": "Release order 033",
+      "release_no": 33,
+      "release_no_label": "No. 033"
     },
     {
       "track_num": 34,
@@ -1245,8 +1311,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 33,
-      "release_no": 33,
-      "release_no_label": "No. 033"
+      "release_order": 34,
+      "release_order_label": "Release order 034",
+      "release_no": 34,
+      "release_no_label": "No. 034"
     },
     {
       "track_num": 35,
@@ -1280,8 +1348,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 36,
-      "release_no": 34,
-      "release_no_label": "No. 034"
+      "release_order": 35,
+      "release_order_label": "Release order 035",
+      "release_no": 35,
+      "release_no_label": "No. 035"
     },
     {
       "track_num": 36,
@@ -1315,8 +1385,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 35,
-      "release_no": 35,
-      "release_no_label": "No. 035"
+      "release_order": 36,
+      "release_order_label": "Release order 036",
+      "release_no": 36,
+      "release_no_label": "No. 036"
     },
     {
       "track_num": 37,
@@ -1350,8 +1422,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 38,
-      "release_no": 36,
-      "release_no_label": "No. 036"
+      "release_order": 37,
+      "release_order_label": "Release order 037",
+      "release_no": 37,
+      "release_no_label": "No. 037"
     },
     {
       "track_num": 38,
@@ -1385,8 +1459,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 37,
-      "release_no": 37,
-      "release_no_label": "No. 037"
+      "release_order": 38,
+      "release_order_label": "Release order 038",
+      "release_no": 38,
+      "release_no_label": "No. 038"
     },
     {
       "track_num": 39,
@@ -1420,8 +1496,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 40,
-      "release_no": 38,
-      "release_no_label": "No. 038"
+      "release_order": 39,
+      "release_order_label": "Release order 039",
+      "release_no": 39,
+      "release_no_label": "No. 039"
     },
     {
       "track_num": 40,
@@ -1455,8 +1533,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 39,
-      "release_no": 39,
-      "release_no_label": "No. 039"
+      "release_order": 40,
+      "release_order_label": "Release order 040",
+      "release_no": 40,
+      "release_no_label": "No. 040"
     },
     {
       "track_num": 41,
@@ -1468,13 +1548,13 @@
         "name": "Blue afterimages",
         "range": "041-060"
       },
-      "release_date": "2025-12-31",
+      "release_date": "2025-10-08",
       "single_number": 41,
       "single_label": "041 single",
-      "apple_collection_id": "1863043437",
+      "apple_collection_id": "1841936425",
       "spotify_url": "https://open.spotify.com/album/1XFIxz3XHGIGyuKxI6hZBb",
-      "apple_url": "https://music.apple.com/us/album/%E4%B8%96%E7%95%8C%E3%81%AE%E5%9C%A8%E3%82%8A%E6%96%B9/1863043437?uo=4&app=music&at=1001lry3&ct=dashboard",
-      "apple_link_corrected": false,
+      "apple_url": "https://music.apple.com/us/album/%E4%B8%96%E7%95%8C%E3%81%AE%E5%9C%A8%E3%82%8A%E6%96%B9-single/1841936425?uo=4",
+      "apple_link_corrected": true,
       "x_release_url": "https://x.com/mofu_skks/status/2007755479444013403",
       "x_teaser_url": "https://x.com/mofu_skks/status/2052011195465703671",
       "has_lyrics": true,
@@ -1490,8 +1570,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 42,
-      "release_no": 60,
-      "release_no_label": "No. 060"
+      "release_order": 41,
+      "release_order_label": "Release order 041",
+      "release_no": 41,
+      "release_no_label": "No. 041"
     },
     {
       "track_num": 42,
@@ -1506,10 +1588,10 @@
       "release_date": "2025-12-31",
       "single_number": 42,
       "single_label": "042 single",
-      "apple_collection_id": "1862917760",
+      "apple_collection_id": "1863055900",
       "spotify_url": "https://open.spotify.com/album/41Odd3Sp4YYAbhaEMWXzGN",
-      "apple_url": "https://music.apple.com/us/album/to-the-way-things-are/1862917760?uo=4&app=music&at=1001lry3&ct=dashboard",
-      "apple_link_corrected": false,
+      "apple_url": "https://music.apple.com/us/album/to-the-way-things-are-single/1863055900?uo=4",
+      "apple_link_corrected": true,
       "x_release_url": "https://x.com/mofu_skks/status/2007755974078320974",
       "x_teaser_url": "https://x.com/mofu_skks/status/2052078090277540137",
       "has_lyrics": true,
@@ -1525,8 +1607,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 41,
-      "release_no": 61,
-      "release_no_label": "No. 061"
+      "release_order": 62,
+      "release_order_label": "Release order 062",
+      "release_no": 42,
+      "release_no_label": "No. 042"
     },
     {
       "track_num": 43,
@@ -1560,8 +1644,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 44,
-      "release_no": 41,
-      "release_no_label": "No. 041"
+      "release_order": 42,
+      "release_order_label": "Release order 042",
+      "release_no": 43,
+      "release_no_label": "No. 043"
     },
     {
       "track_num": 44,
@@ -1595,8 +1681,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 43,
-      "release_no": 42,
-      "release_no_label": "No. 042"
+      "release_order": 43,
+      "release_order_label": "Release order 043",
+      "release_no": 44,
+      "release_no_label": "No. 044"
     },
     {
       "track_num": 45,
@@ -1630,8 +1718,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 46,
-      "release_no": 43,
-      "release_no_label": "No. 043"
+      "release_order": 44,
+      "release_order_label": "Release order 044",
+      "release_no": 45,
+      "release_no_label": "No. 045"
     },
     {
       "track_num": 46,
@@ -1665,8 +1755,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 45,
-      "release_no": 44,
-      "release_no_label": "No. 044"
+      "release_order": 45,
+      "release_order_label": "Release order 045",
+      "release_no": 46,
+      "release_no_label": "No. 046"
     },
     {
       "track_num": 47,
@@ -1700,8 +1792,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 48,
-      "release_no": 45,
-      "release_no_label": "No. 045"
+      "release_order": 46,
+      "release_order_label": "Release order 046",
+      "release_no": 47,
+      "release_no_label": "No. 047"
     },
     {
       "track_num": 48,
@@ -1735,8 +1829,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 47,
-      "release_no": 46,
-      "release_no_label": "No. 046"
+      "release_order": 47,
+      "release_order_label": "Release order 047",
+      "release_no": 48,
+      "release_no_label": "No. 048"
     },
     {
       "track_num": 49,
@@ -1770,8 +1866,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 50,
-      "release_no": 47,
-      "release_no_label": "No. 047"
+      "release_order": 48,
+      "release_order_label": "Release order 048",
+      "release_no": 49,
+      "release_no_label": "No. 049"
     },
     {
       "track_num": 50,
@@ -1805,8 +1903,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 49,
-      "release_no": 48,
-      "release_no_label": "No. 048"
+      "release_order": 49,
+      "release_order_label": "Release order 049",
+      "release_no": 50,
+      "release_no_label": "No. 050"
     },
     {
       "track_num": 51,
@@ -1840,8 +1940,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 52,
-      "release_no": 49,
-      "release_no_label": "No. 049"
+      "release_order": 50,
+      "release_order_label": "Release order 050",
+      "release_no": 51,
+      "release_no_label": "No. 051"
     },
     {
       "track_num": 52,
@@ -1875,8 +1977,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 51,
-      "release_no": 50,
-      "release_no_label": "No. 050"
+      "release_order": 51,
+      "release_order_label": "Release order 051",
+      "release_no": 52,
+      "release_no_label": "No. 052"
     },
     {
       "track_num": 53,
@@ -1910,8 +2014,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 54,
-      "release_no": 51,
-      "release_no_label": "No. 051"
+      "release_order": 52,
+      "release_order_label": "Release order 052",
+      "release_no": 53,
+      "release_no_label": "No. 053"
     },
     {
       "track_num": 54,
@@ -1945,8 +2051,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 53,
-      "release_no": 52,
-      "release_no_label": "No. 052"
+      "release_order": 53,
+      "release_order_label": "Release order 053",
+      "release_no": 54,
+      "release_no_label": "No. 054"
     },
     {
       "track_num": 55,
@@ -1980,8 +2088,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 56,
-      "release_no": 53,
-      "release_no_label": "No. 053"
+      "release_order": 54,
+      "release_order_label": "Release order 054",
+      "release_no": 55,
+      "release_no_label": "No. 055"
     },
     {
       "track_num": 56,
@@ -2015,8 +2125,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 55,
-      "release_no": 54,
-      "release_no_label": "No. 054"
+      "release_order": 55,
+      "release_order_label": "Release order 055",
+      "release_no": 56,
+      "release_no_label": "No. 056"
     },
     {
       "track_num": 57,
@@ -2050,8 +2162,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 58,
-      "release_no": 55,
-      "release_no_label": "No. 055"
+      "release_order": 56,
+      "release_order_label": "Release order 056",
+      "release_no": 57,
+      "release_no_label": "No. 057"
     },
     {
       "track_num": 58,
@@ -2085,8 +2199,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 57,
-      "release_no": 56,
-      "release_no_label": "No. 056"
+      "release_order": 57,
+      "release_order_label": "Release order 057",
+      "release_no": 58,
+      "release_no_label": "No. 058"
     },
     {
       "track_num": 59,
@@ -2120,8 +2236,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 60,
-      "release_no": 57,
-      "release_no_label": "No. 057"
+      "release_order": 58,
+      "release_order_label": "Release order 058",
+      "release_no": 59,
+      "release_no_label": "No. 059"
     },
     {
       "track_num": 60,
@@ -2155,8 +2273,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 59,
-      "release_no": 58,
-      "release_no_label": "No. 058"
+      "release_order": 59,
+      "release_order_label": "Release order 059",
+      "release_no": 60,
+      "release_no_label": "No. 060"
     },
     {
       "track_num": 61,
@@ -2168,13 +2288,13 @@
         "name": "Glass pulse",
         "range": "061-080"
       },
-      "release_date": "2026-03-25",
+      "release_date": "2025-12-24",
       "single_number": 61,
       "single_label": "061 single",
-      "apple_collection_id": "1886714634",
+      "apple_collection_id": "1859692966",
       "spotify_url": "https://open.spotify.com/album/4BH8murFtNFQMR0YkkAVBy",
-      "apple_url": "https://music.apple.com/us/album/%E5%BF%83%E6%8B%8D%E3%81%AF%E3%81%BE%E3%81%A0%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%81%AE%E3%81%BE%E3%81%BE/1886714634?uo=4&app=music&at=1001lry3&ct=dashboard",
-      "apple_link_corrected": false,
+      "apple_url": "https://music.apple.com/us/album/%E5%BF%83%E6%8B%8D%E3%81%AF%E3%81%BE%E3%81%A0%E3%82%A4%E3%83%B3%E3%83%88%E3%83%AD%E3%81%AE%E3%81%BE%E3%81%BE-single/1859692966?uo=4",
+      "apple_link_corrected": true,
       "x_release_url": "https://x.com/mofu_skks/status/2006006621131137300",
       "x_teaser_url": "",
       "has_lyrics": false,
@@ -2185,8 +2305,10 @@
       "has_teaser_video": true,
       "public_status": "teaser awaiting public post",
       "counterpart_track_num": 62,
-      "release_no": 84,
-      "release_no_label": "No. 084"
+      "release_order": 60,
+      "release_order_label": "Release order 060",
+      "release_no": 61,
+      "release_no_label": "No. 061"
     },
     {
       "track_num": 62,
@@ -2220,8 +2342,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 61,
-      "release_no": 59,
-      "release_no_label": "No. 059"
+      "release_order": 61,
+      "release_order_label": "Release order 061",
+      "release_no": 62,
+      "release_no_label": "No. 062"
     },
     {
       "track_num": 63,
@@ -2255,8 +2379,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 64,
-      "release_no": 62,
-      "release_no_label": "No. 062"
+      "release_order": 63,
+      "release_order_label": "Release order 063",
+      "release_no": 63,
+      "release_no_label": "No. 063"
     },
     {
       "track_num": 64,
@@ -2290,8 +2416,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 63,
-      "release_no": 63,
-      "release_no_label": "No. 063"
+      "release_order": 64,
+      "release_order_label": "Release order 064",
+      "release_no": 64,
+      "release_no_label": "No. 064"
     },
     {
       "track_num": 65,
@@ -2325,8 +2453,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 66,
-      "release_no": 64,
-      "release_no_label": "No. 064"
+      "release_order": 65,
+      "release_order_label": "Release order 065",
+      "release_no": 65,
+      "release_no_label": "No. 065"
     },
     {
       "track_num": 66,
@@ -2360,8 +2490,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 65,
-      "release_no": 65,
-      "release_no_label": "No. 065"
+      "release_order": 66,
+      "release_order_label": "Release order 066",
+      "release_no": 66,
+      "release_no_label": "No. 066"
     },
     {
       "track_num": 67,
@@ -2395,8 +2527,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 68,
-      "release_no": 66,
-      "release_no_label": "No. 066"
+      "release_order": 67,
+      "release_order_label": "Release order 067",
+      "release_no": 67,
+      "release_no_label": "No. 067"
     },
     {
       "track_num": 68,
@@ -2430,8 +2564,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 67,
-      "release_no": 67,
-      "release_no_label": "No. 067"
+      "release_order": 68,
+      "release_order_label": "Release order 068",
+      "release_no": 68,
+      "release_no_label": "No. 068"
     },
     {
       "track_num": 69,
@@ -2465,8 +2601,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 70,
-      "release_no": 68,
-      "release_no_label": "No. 068"
+      "release_order": 69,
+      "release_order_label": "Release order 069",
+      "release_no": 69,
+      "release_no_label": "No. 069"
     },
     {
       "track_num": 70,
@@ -2500,8 +2638,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 69,
-      "release_no": 69,
-      "release_no_label": "No. 069"
+      "release_order": 70,
+      "release_order_label": "Release order 070",
+      "release_no": 70,
+      "release_no_label": "No. 070"
     },
     {
       "track_num": 71,
@@ -2535,8 +2675,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 72,
-      "release_no": 70,
-      "release_no_label": "No. 070"
+      "release_order": 71,
+      "release_order_label": "Release order 071",
+      "release_no": 71,
+      "release_no_label": "No. 071"
     },
     {
       "track_num": 72,
@@ -2570,8 +2712,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 71,
-      "release_no": 71,
-      "release_no_label": "No. 071"
+      "release_order": 72,
+      "release_order_label": "Release order 072",
+      "release_no": 72,
+      "release_no_label": "No. 072"
     },
     {
       "track_num": 73,
@@ -2605,8 +2749,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 74,
-      "release_no": 72,
-      "release_no_label": "No. 072"
+      "release_order": 73,
+      "release_order_label": "Release order 073",
+      "release_no": 73,
+      "release_no_label": "No. 073"
     },
     {
       "track_num": 74,
@@ -2640,8 +2786,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 73,
-      "release_no": 73,
-      "release_no_label": "No. 073"
+      "release_order": 74,
+      "release_order_label": "Release order 074",
+      "release_no": 74,
+      "release_no_label": "No. 074"
     },
     {
       "track_num": 75,
@@ -2675,8 +2823,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 76,
-      "release_no": 74,
-      "release_no_label": "No. 074"
+      "release_order": 75,
+      "release_order_label": "Release order 075",
+      "release_no": 75,
+      "release_no_label": "No. 075"
     },
     {
       "track_num": 76,
@@ -2710,8 +2860,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 75,
-      "release_no": 75,
-      "release_no_label": "No. 075"
+      "release_order": 76,
+      "release_order_label": "Release order 076",
+      "release_no": 76,
+      "release_no_label": "No. 076"
     },
     {
       "track_num": 77,
@@ -2745,8 +2897,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 78,
-      "release_no": 76,
-      "release_no_label": "No. 076"
+      "release_order": 77,
+      "release_order_label": "Release order 077",
+      "release_no": 77,
+      "release_no_label": "No. 077"
     },
     {
       "track_num": 78,
@@ -2780,8 +2934,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 77,
-      "release_no": 77,
-      "release_no_label": "No. 077"
+      "release_order": 78,
+      "release_order_label": "Release order 078",
+      "release_no": 78,
+      "release_no_label": "No. 078"
     },
     {
       "track_num": 79,
@@ -2815,8 +2971,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 80,
-      "release_no": 78,
-      "release_no_label": "No. 078"
+      "release_order": 79,
+      "release_order_label": "Release order 079",
+      "release_no": 79,
+      "release_no_label": "No. 079"
     },
     {
       "track_num": 80,
@@ -2850,8 +3008,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 79,
-      "release_no": 79,
-      "release_no_label": "No. 079"
+      "release_order": 80,
+      "release_order_label": "Release order 080",
+      "release_no": 80,
+      "release_no_label": "No. 080"
     },
     {
       "track_num": 81,
@@ -2885,8 +3045,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 82,
-      "release_no": 80,
-      "release_no_label": "No. 080"
+      "release_order": 81,
+      "release_order_label": "Release order 081",
+      "release_no": 81,
+      "release_no_label": "No. 081"
     },
     {
       "track_num": 82,
@@ -2920,8 +3082,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 81,
-      "release_no": 81,
-      "release_no_label": "No. 081"
+      "release_order": 82,
+      "release_order_label": "Release order 082",
+      "release_no": 82,
+      "release_no_label": "No. 082"
     },
     {
       "track_num": 83,
@@ -2955,8 +3119,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 84,
-      "release_no": 82,
-      "release_no_label": "No. 082"
+      "release_order": 83,
+      "release_order_label": "Release order 083",
+      "release_no": 83,
+      "release_no_label": "No. 083"
     },
     {
       "track_num": 84,
@@ -2990,8 +3156,10 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 83,
-      "release_no": 83,
-      "release_no_label": "No. 083"
+      "release_order": 84,
+      "release_order_label": "Release order 084",
+      "release_no": 84,
+      "release_no_label": "No. 084"
     },
     {
       "track_num": 85,
@@ -3025,6 +3193,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 86,
+      "release_order": 85,
+      "release_order_label": "Release order 085",
       "release_no": 85,
       "release_no_label": "No. 085"
     },
@@ -3060,6 +3230,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 85,
+      "release_order": 86,
+      "release_order_label": "Release order 086",
       "release_no": 86,
       "release_no_label": "No. 086"
     },
@@ -3095,6 +3267,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 88,
+      "release_order": 87,
+      "release_order_label": "Release order 087",
       "release_no": 87,
       "release_no_label": "No. 087"
     },
@@ -3130,6 +3304,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 87,
+      "release_order": 88,
+      "release_order_label": "Release order 088",
       "release_no": 88,
       "release_no_label": "No. 088"
     },
@@ -3165,6 +3341,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 90,
+      "release_order": 89,
+      "release_order_label": "Release order 089",
       "release_no": 89,
       "release_no_label": "No. 089"
     },
@@ -3200,6 +3378,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 89,
+      "release_order": 90,
+      "release_order_label": "Release order 090",
       "release_no": 90,
       "release_no_label": "No. 090"
     },
@@ -3235,6 +3415,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 92,
+      "release_order": 91,
+      "release_order_label": "Release order 091",
       "release_no": 91,
       "release_no_label": "No. 091"
     },
@@ -3270,6 +3452,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 91,
+      "release_order": 92,
+      "release_order_label": "Release order 092",
       "release_no": 92,
       "release_no_label": "No. 092"
     },
@@ -3305,6 +3489,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 94,
+      "release_order": 93,
+      "release_order_label": "Release order 093",
       "release_no": 93,
       "release_no_label": "No. 093"
     },
@@ -3340,6 +3526,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 93,
+      "release_order": 94,
+      "release_order_label": "Release order 094",
       "release_no": 94,
       "release_no_label": "No. 094"
     },
@@ -3375,6 +3563,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 96,
+      "release_order": 95,
+      "release_order_label": "Release order 095",
       "release_no": 95,
       "release_no_label": "No. 095"
     },
@@ -3410,6 +3600,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 95,
+      "release_order": 96,
+      "release_order_label": "Release order 096",
       "release_no": 96,
       "release_no_label": "No. 096"
     },
@@ -3440,6 +3632,8 @@
       "has_teaser_video": true,
       "public_status": "ready",
       "counterpart_track_num": 98,
+      "release_order": 97,
+      "release_order_label": "Release order 097",
       "release_no": 97,
       "release_no_label": "No. 097"
     },
@@ -3470,6 +3664,8 @@
       "has_teaser_video": true,
       "public_status": "video prepared",
       "counterpart_track_num": 97,
+      "release_order": 98,
+      "release_order_label": "Release order 098",
       "release_no": 98,
       "release_no_label": "No. 098"
     },
@@ -3505,6 +3701,8 @@
       "has_teaser_video": true,
       "public_status": "video prepared",
       "counterpart_track_num": 100,
+      "release_order": 99,
+      "release_order_label": "Release order 099",
       "release_no": 99,
       "release_no_label": "No. 099"
     },
@@ -3540,6 +3738,8 @@
       "has_teaser_video": true,
       "public_status": "video prepared",
       "counterpart_track_num": 99,
+      "release_order": 100,
+      "release_order_label": "Release order 100",
       "release_no": 100,
       "release_no_label": "No. 100"
     }
