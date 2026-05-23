@@ -14,95 +14,65 @@
       <span>K.S_mofu</span>
     </a>
     <nav class="main-nav" aria-label="Primary navigation">
-      <a href="#library">Library</a>
+      <a href="#player">Player</a>
+      <a href="#queue">Featured</a>
+      <a href="#chapters">Chapters</a>
       <a href="#works">Works</a>
-      <a href="#video">Video</a>
-      <a href="#letter">Letter</a>
       <a href="#press">Press</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-film" aria-hidden="true">
-        <video autoplay muted loop playsinline poster="assets/thumbs/097.jpg">
-          <source src="assets/teasers/097.mp4" type="video/mp4">
-        </video>
-        <video autoplay muted loop playsinline poster="assets/thumbs/091.jpg">
-          <source src="assets/teasers/091.mp4" type="video/mp4">
-        </video>
-        <video autoplay muted loop playsinline poster="assets/thumbs/016.jpg">
-          <source src="assets/teasers/016.mp4" type="video/mp4">
-        </video>
-        <video autoplay muted loop playsinline poster="assets/thumbs/100.jpg">
-          <source src="assets/teasers/100.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="hero-shade"></div>
-      <div class="hero-copy">
-        <p class="kicker">Public Archive / Lyric Films / 100 Works</p>
-        <h1 id="hero-title">壊れた未来さえ、きっと美しいから。</h1>
-        <p class="hero-text">
+    <section id="player" class="public-player" aria-labelledby="player-title">
+      <div class="public-copy">
+        <p class="section-marker">Public archive / lyric films / 100 works</p>
+        <h1 id="player-title">壊れた未来さえ、<br>きっと美しいから。</h1>
+        <p>
           Because even a shattered future is bound to be beautiful.
-          S.K_mofu / K.S_mofu archives bilingual songs as short cinematic fragments.
+          Bilingual songs, lyric-led teasers, and release links gathered as a cinematic archive.
         </p>
         <div class="hero-actions">
-          <a class="solid-action" href="#works">Enter the archive</a>
-          <a class="ghost-action" href="#letter">Read the letter</a>
+          <a class="ghost-action" href="#chapters">Open chapters</a>
         </div>
       </div>
+      <div id="consolePlayer" class="console-player" aria-live="polite"></div>
     </section>
 
-    <section class="identity-section" aria-labelledby="identity-title">
-      <div class="identity-media">
-        <img class="identity-banner" src="assets/brand/x-profile-banner.png" alt="Meteor-like light falling across a dark horizon">
-        <img class="identity-portrait" src="assets/brand/sk-profile-portrait.jpg" alt="S.K_mofu portrait at a red shoreline">
+    <section id="queue" class="featured-queue" aria-labelledby="queue-title">
+      <div class="section-head compact-head">
+        <div>
+          <p class="section-marker">Featured queue</p>
+          <h2 id="queue-title">Eight doors into the catalog.</h2>
+        </div>
       </div>
-      <div class="identity-copy">
-        <p class="section-marker">Profile statement</p>
-        <h2 id="identity-title">壊れた未来さえ、きっと美しいから</h2>
-        <p class="identity-translation">Because even a shattered future is bound to be beautiful.</p>
-        <p>
-          This archive begins from that line: songs for broken horizons, paired languages,
-          and small films that keep the fracture luminous.
-        </p>
-        <a href="https://x.com/mofu_skks" target="_blank" rel="noreferrer">@mofu_skks on X</a>
-      </div>
+      <div id="consoleList" class="console-list" aria-live="polite"></div>
     </section>
 
-    <section id="letter" class="letter-section" aria-labelledby="letter-title">
-      <div class="section-marker">Letter 001</div>
-      <div class="letter-copy">
-        <h2 id="letter-title">A catalog for songs that should not vanish into the feed.</h2>
-        <p>
-          This is not a dashboard. It is a room for songs after release: Japanese and English works,
-          paired titles, teaser films, and the small traces that turn a single post into an archive.
-        </p>
+    <section class="lyric-fragment-section" aria-labelledby="lyric-fragment-title">
+      <div class="lyric-fragment-head">
+        <p class="section-marker">Lyric fragment</p>
+        <h2 id="lyric-fragment-title">A line from the archive.</h2>
       </div>
-      <blockquote>
-        <span>幼き頃の夢のように</span>
-        <span>手放したものがある</span>
-        <span>This wound is still alive</span>
-      </blockquote>
+      <div id="randomLyric" class="lyric-fragment" aria-live="polite"></div>
     </section>
 
-    <section id="library" class="library-section" aria-labelledby="library-title">
+    <section id="chapters" class="library-section chapter-index" aria-labelledby="library-title">
       <div class="section-head">
         <div>
           <p class="section-marker">Chapter index</p>
-          <h2 id="library-title">Catalog by chapter</h2>
+          <h2 id="library-title">I - V / 20 works each</h2>
         </div>
         <p class="section-note">
-          The works are arranged as shelves, pairing release history with the visual traces left by each song.
+          Each chapter opens a complete 20-work list with release date, number, single count, album art, and listening links.
         </p>
       </div>
-      <div id="eraShelves" class="era-shelves" aria-live="polite"></div>
+      <div id="chapterCards" class="ledger-chapters" aria-live="polite"></div>
     </section>
 
     <section id="works" class="works-section" aria-labelledby="works-title">
       <div class="section-head">
         <div>
-          <p class="section-marker">Teaser archive</p>
+          <p class="section-marker">All works</p>
           <h2 id="works-title">Works and teasers</h2>
         </div>
         <p class="section-note">
@@ -119,34 +89,6 @@
       </div>
 
       <div id="trackGrid" class="track-grid" aria-live="polite"></div>
-    </section>
-
-    <section id="video" class="video-section" aria-labelledby="video-title">
-      <div class="video-feature">
-        <div class="feature-media">
-          <video controls muted loop playsinline poster="assets/thumbs/091.jpg">
-            <source src="assets/teasers/091.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="feature-copy">
-          <p class="section-marker">Featured teaser</p>
-          <h2 id="video-title">Selected work</h2>
-          <h3>091 / 解体新書</h3>
-          <p>
-            A track detail gathers the teaser, release links, album artwork,
-            release order, and a way back into the paired catalog.
-          </p>
-          <div class="feature-links">
-            <a href="https://open.spotify.com/album/5MOek8zQVpeyIbjXmoQhFw" target="_blank" rel="noreferrer">Spotify</a>
-            <a href="https://music.apple.com/us/album/%E8%A7%A3%E4%BD%93%E6%96%B0%E6%9B%B8/1895334031?uo=4&app=music&at=1001lry3&ct=dashboard" target="_blank" rel="noreferrer">Apple Music</a>
-            <a href="https://x.com/mofu_skks/status/2052642137314087286" target="_blank" rel="noreferrer">X Teaser</a>
-          </div>
-        </div>
-      </div>
-      <div class="video-index">
-        <p class="section-marker">Selected works</p>
-        <ol id="videoIndex" aria-label="Selected video index"></ol>
-      </div>
     </section>
 
     <section id="press" class="press-section" aria-labelledby="press-title">
