@@ -187,6 +187,88 @@ button {
   background: transparent;
 }
 
+.identity-section {
+  display: grid;
+  grid-template-columns: minmax(360px, 1.05fr) minmax(320px, 0.72fr);
+  min-height: 520px;
+  color: var(--bone);
+  background: var(--coal);
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.identity-media {
+  position: relative;
+  min-height: 520px;
+  overflow: hidden;
+  border-right: 1px solid var(--line-dark);
+  background: #0f0f0e;
+}
+
+.identity-banner {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+  display: block;
+  object-fit: cover;
+}
+
+.identity-portrait {
+  position: absolute;
+  left: 34px;
+  bottom: 34px;
+  width: min(220px, 30vw);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 7px solid #050505;
+  border-radius: 50%;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+}
+
+.identity-copy {
+  align-self: center;
+  padding: 54px 34px;
+}
+
+.identity-copy h2 {
+  max-width: 620px;
+  margin: 16px 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1.04;
+}
+
+.identity-translation,
+.identity-copy p {
+  max-width: 560px;
+  margin: 22px 0 0;
+  color: rgba(251, 250, 244, 0.75);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.identity-translation {
+  color: var(--bone);
+  font-weight: 760;
+}
+
+.identity-copy a {
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 26px;
+  padding: 0 12px;
+  color: var(--bone);
+  border: 1px solid var(--line-dark);
+  font-size: 13px;
+  font-weight: 760;
+}
+
+.identity-copy a:hover,
+.identity-copy a:focus-visible {
+  color: var(--gold);
+}
+
 .letter-section,
 .library-section,
 .works-section,
@@ -713,8 +795,25 @@ button {
 
   .video-section,
   .video-feature,
+  .identity-section,
   .press-grid {
     grid-template-columns: 1fr;
+  }
+
+  .identity-media {
+    min-height: 380px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line-dark);
+  }
+
+  .identity-banner {
+    min-height: 380px;
+  }
+
+  .identity-portrait {
+    width: min(190px, 34vw);
+    left: 22px;
+    bottom: 22px;
   }
 
   .video-index {
@@ -749,6 +848,10 @@ button {
     font-size: 50px;
   }
 
+  .identity-copy {
+    padding: 44px 18px;
+  }
+
   .letter-section,
   .section-head,
   .era-row,
@@ -766,6 +869,7 @@ button {
   }
 
   .letter-copy h2,
+  .identity-copy h2,
   .section-head h2,
   .feature-copy h2,
   .press-section h2,
@@ -807,6 +911,8 @@ button {
   }
 
   .hero-text,
+  .identity-translation,
+  .identity-copy p,
   .letter-copy p,
   .section-note,
   .feature-copy p,
@@ -838,5 +944,10 @@ button {
 
   .release-panel {
     grid-template-columns: 1fr;
+  }
+
+  .identity-portrait {
+    width: 132px;
+    border-width: 5px;
   }
 }
