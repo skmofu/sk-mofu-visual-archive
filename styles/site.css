@@ -1435,12 +1435,24 @@ button {
   }
 
   .chapter-track {
-    grid-template-columns: 76px minmax(0, 1fr);
+    grid-template-columns: minmax(108px, 30%) minmax(0, 1fr);
+    column-gap: 20px;
+    row-gap: 16px;
+    padding: 14px;
   }
 
   .chapter-track .track-links,
   .chapter-meta {
     grid-column: 2 / 3;
+  }
+
+  .chapter-track img {
+    width: 100%;
+    max-width: 124px;
+  }
+
+  .chapter-track h2 {
+    overflow-wrap: anywhere;
   }
 }
 
@@ -1459,5 +1471,9 @@ button {
 
   .public-copy h1 {
     font-size: 38px;
+  }
+
+  .chapter-track {
+    grid-template-columns: minmax(112px, 34%) minmax(0, 1fr);
   }
 }
