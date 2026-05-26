@@ -17,6 +17,7 @@ const chapterList = document.querySelector("#chapterList");
 const dialog = document.querySelector("#trackDialog");
 const dialogBody = document.querySelector("#dialogBody");
 const closeButton = document.querySelector(".dialog-close");
+const ASSET_VERSION = "20260526-thumb-sync";
 
 function escapeHTML(value) {
   return String(value ?? "")
@@ -30,6 +31,16 @@ function escapeHTML(value) {
 function externalLink(url, label) {
   if (!url) return `<span class="disabled">${escapeHTML(label)}</span>`;
   return `<a href="${escapeHTML(url)}" target="_blank" rel="noreferrer">${escapeHTML(label)}</a>`;
+}
+
+function assetURL(value) {
+  const path = String(value || "");
+  if (!path) return "";
+  if (/^(https?:)?\/\//.test(path) || path.startsWith("data:")) {
+    return escapeHTML(path);
+  }
+  const joiner = path.includes("?") ? "&" : "?";
+  return escapeHTML(`${path}${joiner}v=${ASSET_VERSION}`);
 }
 
 function formatGeneratedAt(value) {
@@ -95,10 +106,10 @@ function renderConsole() {
   const selected = trackById(state.currentConsoleId) || state.tracks[0];
   if (!selected) return;
   const media = selected.teaser_video
-    ? `<video controls muted autoplay loop playsinline poster="${selected.thumbnail}">
-        <source src="${selected.teaser_video}" type="video/mp4">
+    ? `<video controls muted autoplay loop playsinline poster="${assetURL(selected.thumbnail)}">
+        <source src="${assetURL(selected.teaser_video)}" type="video/mp4">
       </video>`
-    : `<img src="${selected.thumbnail}" alt="${escapeHTML(selected.title)}">`;
+    : `<img src="${assetURL(selected.thumbnail)}" alt="${escapeHTML(selected.title)}">`;
 
   consolePlayer.innerHTML = `
     <div>${media}</div>
@@ -116,7 +127,7 @@ function renderConsole() {
 
   consoleList.innerHTML = queueIds.map(trackById).filter(Boolean).map((track) => `
     <button class="console-item${track.track_id === selected.track_id ? " is-active" : ""}" type="button" data-console-track="${escapeHTML(track.track_id)}">
-      <img src="${track.thumbnail}" alt="${escapeHTML(track.track_id)} ${escapeHTML(track.title)}">
+      <img src="${assetURL(track.thumbnail)}" alt="${escapeHTML(track.track_id)} ${escapeHTML(track.title)}">
       <span>
         <strong>${escapeHTML(track.track_id)} / ${escapeHTML(track.title)}</strong>
         <span>${escapeHTML(track.era.code)} / ${escapeHTML(formatDate(track.release_date))}</span>
@@ -155,7 +166,7 @@ function renderChapterCards() {
   chapterCards.innerHTML = eras.map((era) => {
     const preview = tracksByEra(era.code).slice(0, 6).map((track) => `
       <button type="button" data-track="${escapeHTML(track.track_id)}" aria-label="Open ${escapeHTML(track.title)}">
-        <img src="${track.thumbnail}" alt="${escapeHTML(track.track_id)} ${escapeHTML(track.title)}">
+        <img src="${assetURL(track.thumbnail)}" alt="${escapeHTML(track.track_id)} ${escapeHTML(track.title)}">
         <span>${escapeHTML(track.track_id)}</span>
       </button>
     `).join("");
@@ -188,7 +199,7 @@ function renderTracks() {
   grid.innerHTML = tracks.map((track) => `
     <article class="track-card">
       <button type="button" data-track="${track.track_id}" aria-label="Open ${escapeHTML(track.title)}">
-        <img src="${track.thumbnail}" alt="${escapeHTML(track.track_id)} ${escapeHTML(track.title)}">
+        <img src="${assetURL(track.thumbnail)}" alt="${escapeHTML(track.track_id)} ${escapeHTML(track.title)}">
       </button>
       <div class="track-card-body">
         <div>
@@ -235,7 +246,7 @@ function renderChapterPage() {
   chapterList.innerHTML = tracks.map((track) => `
     <article class="chapter-track">
       <button type="button" data-track="${escapeHTML(track.track_id)}" aria-label="Open ${escapeHTML(track.title)}">
-        <img src="${track.album_art || track.thumbnail}" alt="${escapeHTML(track.title)} album art">
+        <img src="${assetURL(track.album_art || track.thumbnail)}" alt="${escapeHTML(track.title)} album art">
       </button>
       <div>
         <h2>${escapeHTML(track.track_id)} / ${escapeHTML(track.title)}</h2>
@@ -261,10 +272,10 @@ function openTrack(trackId) {
   state.currentTrackId = track.track_id;
   const counterpart = state.tracks.find((item) => item.track_num === track.counterpart_track_num);
   const media = track.teaser_video
-    ? `<video class="detail-video" controls autoplay playsinline poster="${track.thumbnail}">
-        <source src="${track.teaser_video}" type="video/mp4">
+    ? `<video class="detail-video" controls autoplay playsinline poster="${assetURL(track.thumbnail)}">
+        <source src="${assetURL(track.teaser_video)}" type="video/mp4">
       </video>`
-    : `<img src="${track.thumbnail}" alt="${escapeHTML(track.track_id)} ${escapeHTML(track.title)}">`;
+    : `<img src="${assetURL(track.thumbnail)}" alt="${escapeHTML(track.track_id)} ${escapeHTML(track.title)}">`;
 
   dialogBody.innerHTML = `
     <div class="detail-layout">
@@ -276,7 +287,7 @@ function openTrack(trackId) {
           ${escapeHTML(track.language.toUpperCase())} / Chapter ${escapeHTML(track.era.code)} / ${escapeHTML(track.public_status)}
         </p>
         <div class="release-panel">
-          <img src="${track.album_art || track.thumbnail}" alt="${escapeHTML(track.title)} album art">
+          <img src="${assetURL(track.album_art || track.thumbnail)}" alt="${escapeHTML(track.title)} album art">
           <dl>
             <div><dt>No.</dt><dd>${escapeHTML(track.release_no_label || "No. syncing")}</dd></div>
             <div><dt>Release</dt><dd>${escapeHTML(formatDate(track.release_date) || "Release date syncing")}</dd></div>
