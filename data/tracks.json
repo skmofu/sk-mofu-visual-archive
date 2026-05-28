@@ -4,7 +4,7 @@
       "S.K_mofu",
       "K.S_mofu"
     ],
-    "generated_at": "2026-05-23T16:51:20+09:00",
+    "generated_at": "2026-05-28T13:54:45+09:00",
     "tracks": 100,
     "languages": {
       "ja": 50,
@@ -14,7 +14,7 @@
     "apple_ready": 100,
     "x_release_ready": 97,
     "x_teaser_ready": 96,
-    "lyrics_ready": 97,
+    "lyrics_ready": 93,
     "eras": [
       {
         "code": "I",
@@ -3142,13 +3142,8 @@
       "apple_link_corrected": false,
       "x_release_url": "https://x.com/mofu_skks/status/2034646768831643724",
       "x_teaser_url": "https://x.com/mofu_skks/status/2054731706079560113",
-      "has_lyrics": true,
-      "lyrics_excerpt": [
-        "Coldrimssplitmyeardrums.Onlythecity’spulsestayedblue.Inabandonedlight,Iflickeredontoolate.",
-        "Iscrapethenameoff,frightbreaksifItouchit.Onlythespeedwithoutyouringstoopuretobreak.It’snotthatIwanttodisappear.Iscorchedaplacetostay,butalifemadeofmistakesisn'tenough.",
-        "A",
-        "rage-drivenguitar,anunravelingbass,drumscatchingfiretoolate.Anamelessafterecho."
-      ],
+      "has_lyrics": false,
+      "lyrics_excerpt": [],
       "thumbnail": "assets/thumbs/084.jpg",
       "album_art": "assets/artwork/084.jpg",
       "teaser_video": "assets/teasers/084.mp4",
@@ -3290,13 +3285,8 @@
       "apple_link_corrected": false,
       "x_release_url": "https://x.com/mofu_skks/status/2052243810193920165",
       "x_teaser_url": "https://x.com/mofu_skks/status/2052244863262081359",
-      "has_lyrics": true,
-      "lyrics_excerpt": [
-        "Inthemorningwhereglasseyesarecrackingapart,Ipretendedtoforgetsomebody'sname.WhatthemirrorreflectsisashapeIdon'tknow.",
-        "EverytimeIblink,itbleeds,",
-        "thenmeltsaway.",
-        "Onafrequencyabouttobreak,onlyyourvoicekeepspiercingthrough,won'tletmego."
-      ],
+      "has_lyrics": false,
+      "lyrics_excerpt": [],
       "thumbnail": "assets/thumbs/088.jpg",
       "album_art": "assets/artwork/088.jpg",
       "teaser_video": "assets/teasers/088.mp4",
@@ -3364,13 +3354,8 @@
       "apple_link_corrected": false,
       "x_release_url": "https://x.com/mofu_skks/status/2052646519606784232",
       "x_teaser_url": "https://x.com/mofu_skks/status/2052646720052629552",
-      "has_lyrics": true,
-      "lyrics_excerpt": [
-        "Whatyouleftbehind.",
-        "Aspringlockedinside.Beyondthewindowsill.",
-        "Stillnotdry.",
-        "LikesomethingthatwouldbreakifItouchedit.Thescentofapromiselingers."
-      ],
+      "has_lyrics": false,
+      "lyrics_excerpt": [],
       "thumbnail": "assets/thumbs/090.jpg",
       "album_art": "assets/artwork/090.jpg",
       "teaser_video": "assets/teasers/090.mp4",
@@ -3438,13 +3423,8 @@
       "apple_link_corrected": false,
       "x_release_url": "https://x.com/mofu_skks/status/2052642491254575491",
       "x_teaser_url": "https://x.com/mofu_skks/status/2052642694200168614",
-      "has_lyrics": true,
-      "lyrics_excerpt": [
-        "Somethingisringingdeepinsidemybones.AfrequencyIhaveneverknown.Atthebottomofthesesleeplessnights,ittakesmeapartpiecebypiece.Iforgothowtoputmyselfbacktogetherandthesoundofmyownheartbeatterrifiesme.",
-        "Destroyme,blueprintandall.Idon'tneedtherightshapeanymore.Evenifathousandcircuitsburnout,thispainaloneprovesthatIexist.",
-        "FromthewoundsIstitchedtogether,flowersIneverplantedwereblooming.BehindthesmileIbuiltfromlies,everythingwastransparentallalong.ThethingsIwantedtoprotectthemost,Iheldtootightandcrushedtodust.",
-        "Exposeme,disguiseandall.Ican'ttellbeautifulliesanymore.Evenifathousandnervesaretornapart,Iknowthisscreamistheonlythingthat'sreal."
-      ],
+      "has_lyrics": false,
+      "lyrics_excerpt": [],
       "thumbnail": "assets/thumbs/092.jpg",
       "album_art": "assets/artwork/092.jpg",
       "teaser_video": "assets/teasers/092.mp4",
@@ -3514,10 +3494,10 @@
       "x_teaser_url": "https://x.com/mofu_skks/status/2053053441103339818",
       "has_lyrics": true,
       "lyrics_excerpt": [
-        "Someoneiswalkingthroughmyhead.Everyfootstepcracksanothermemory.Ontheborderline,Ihavealwaysbeenlosingmybalance.EvenwhenIclosemyeyes,yourshadowisstillbehindthem.Ah.",
-        "Ifyoucouldlovethisbrain,thenholdmebroken,woundedall.Atthebottomofacontaminateddawn,abeautifulmadnessissinging.",
-        "Iswallowthesmiletheyprescribeme.Tearsspilloutlikeasideeffect.WhenItrytonameeveryemotion,theywereallyourname.Thispainaloneiswhatkeepsmehere.Oh.",
-        "Ifyoucouldforgivethisbrain,thendrownmetwisted,woundedall.Deepinsideacontaminatedheart,abeautifulscreamisechoing."
+        "Someone is walking through my head",
+        "Every footstep cracks another memory",
+        "On the borderline I have always been",
+        "Losing my balance"
       ],
       "thumbnail": "assets/thumbs/094.jpg",
       "album_art": "assets/artwork/094.jpg",

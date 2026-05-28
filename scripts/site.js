@@ -17,7 +17,7 @@ const chapterList = document.querySelector("#chapterList");
 const dialog = document.querySelector("#trackDialog");
 const dialogBody = document.querySelector("#dialogBody");
 const closeButton = document.querySelector(".dialog-close");
-const ASSET_VERSION = "20260526-thumb-sync";
+const ASSET_VERSION = "20260528-lyrics-guard";
 
 function escapeHTML(value) {
   return String(value ?? "")
@@ -26,6 +26,18 @@ function escapeHTML(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function isSuspectLyricLine(value) {
+  const line = String(value || "").trim();
+  return /[A-Za-z]{28,}/.test(line);
+}
+
+function safeLyricLines(track) {
+  return (track.lyrics_excerpt || [])
+    .map((line) => String(line || "").trim())
+    .filter((line) => line.length > 3 && !/^[\s*._-]+$/.test(line))
+    .filter((line) => !isSuspectLyricLine(line));
 }
 
 function externalLink(url, label) {
@@ -116,7 +128,7 @@ function renderConsole() {
     <div class="console-player-copy">
       <p class="section-marker">Track ${escapeHTML(selected.track_id)}</p>
       <h2>${escapeHTML(selected.title)}</h2>
-      <p>${escapeHTML((selected.lyrics_excerpt || []).slice(0, 2).join(" / "))}</p>
+      <p>${escapeHTML(safeLyricLines(selected).slice(0, 2).join(" / "))}</p>
       <div class="track-links">
         ${externalLink(selected.spotify_url, "Spotify")}
         ${externalLink(selected.apple_url, "Apple Music")}
@@ -140,11 +152,11 @@ function renderConsole() {
 function renderRandomLyric() {
   if (!randomLyric) return;
   const candidates = state.tracks.flatMap((track) => (
-    (track.lyrics_excerpt || []).map((line) => ({
+    safeLyricLines(track).map((line) => ({
       track,
-      line: String(line || "").trim(),
+      line,
     }))
-  )).filter((item) => item.line.length > 3 && !/^[\s*._-]+$/.test(item.line));
+  ));
 
   const selected = candidates[Math.floor(Math.random() * candidates.length)];
   if (!selected) {
