@@ -1,1 +1,1 @@
-{"entries":[],"schema":"mofu.pinterest.authorization_anchor.v3"}
+{"entries":[{"authorization_seq":1,"base_commit":"21d41d51e14fc3ded5c009cca1c804ad35f1ac84","manifest_core_hash":"b34718834e8ba5696b6f693cbb9822d9b1bf73f927070aa3111ead3a35856659","supersedes_core_hash":""}],"schema":"mofu.pinterest.authorization_anchor.v3"}
