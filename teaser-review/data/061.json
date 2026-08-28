@@ -1,0 +1,632 @@
+{
+  "schema": "teaser-sync-gate.v2",
+  "verified_at": "2026-08-28T22:59:13+09:00",
+  "status": "PASS",
+  "threshold_seconds": 0.15,
+  "track_num": 61,
+  "title": "心拍はまだイントロのまま",
+  "language": "ja",
+  "legacy_video": "061_心拍はまだイントロのまま.mp4",
+  "legacy_video_sha256": "249ae83b49903f4761d5ba6b08c81618fa6e2d308ac960c4d21a843da06f6068",
+  "video": "061_心拍はまだイントロのまま.mp4",
+  "video_sha256": "06b80712e35ba3bcfdfbdad6a459ecb2e3c7610e22c0e21a96df4afad5bef739",
+  "repaired": true,
+  "repair_attempts": 1,
+  "lyrics_source": "distrokid_all_lyrics_page_readonly_20260701",
+  "lyrics_sha256": "a75ae1f2e642aad53ab88e9a2d85d1bb7789a00d54b9e7ee28921622238d67e1",
+  "subtitle_segments": [
+    {
+      "start": 0.0,
+      "end": 3.74,
+      "text": "それでも君の名前だけ ジャストで響いて"
+    },
+    {
+      "start": 3.84,
+      "end": 7.86,
+      "text": "ミュートできない痛みが リズムを刻んでる"
+    },
+    {
+      "start": 8.42,
+      "end": 11.58,
+      "text": "ねえ 戻れないね イントロの静けさに"
+    },
+    {
+      "start": 11.74,
+      "end": 14.76,
+      "text": "でもまだ フルボリュームの絶望じゃない"
+    }
+  ],
+  "line_results": [
+    {
+      "line_number": 1,
+      "text": "それでも君の名前だけ ジャストで響いて",
+      "recognized_text": "それでも君の名前だけジャストで響いて。",
+      "recognized_start": 0.0,
+      "recognized_end": 3.74,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9463,
+      "word_start_index": 0,
+      "word_end_index": 12,
+      "display_start": 0.0,
+      "display_end": 3.74,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 2,
+      "text": "ミュートできない痛みが リズムを刻んでる",
+      "recognized_text": "ミュートできない痛みがリズムを刻んでる。",
+      "recognized_start": 3.84,
+      "recognized_end": 7.86,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8108,
+      "word_start_index": 12,
+      "word_end_index": 27,
+      "display_start": 3.84,
+      "display_end": 7.86,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 3,
+      "text": "ねえ 戻れないね イントロの静けさに",
+      "recognized_text": "ねえ戻れないねイントロの静けさに。",
+      "recognized_start": 8.42,
+      "recognized_end": 11.58,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.7827,
+      "word_start_index": 27,
+      "word_end_index": 40,
+      "display_start": 8.42,
+      "display_end": 11.58,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 4,
+      "text": "でもまだ フルボリュームの絶望じゃない",
+      "recognized_text": "でもまだフルボリュームの絶望じゃない",
+      "recognized_start": 11.74,
+      "recognized_end": 14.76,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8752,
+      "word_start_index": 40,
+      "word_end_index": 52,
+      "display_start": 11.74,
+      "display_end": 14.76,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "max_line_deviation_seconds": 0.0,
+  "max_line_deviation_ms": 0,
+  "source_lineage": {
+    "source_wav_sha256": "f3f21105a6bb9310c9239f1a0dac651441dd30db2ae618e3cbf1a73554ca0ff4",
+    "audio_start_seconds": 151.8,
+    "audio_start_error_seconds": 0.0,
+    "audio_correlation": 0.998003,
+    "background_name": "79cf71b9-17fb-4466-b362-7795007b8370.png",
+    "renderer": "teaser_gen_v2.render_ffmpeg_lyrics_fallback"
+  },
+  "asr": {
+    "engine": "faster-whisper large-v3 (Systran; CPU int8; cached local weights)",
+    "language": "ja",
+    "language_probability": 1.0,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.74,
+        "text": "それでも君の名前だけ ジャストで響いて。",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.6,
+            "word": "それ",
+            "probability": 0.7675
+          },
+          {
+            "start": 0.6,
+            "end": 0.82,
+            "word": "でも",
+            "probability": 0.994
+          },
+          {
+            "start": 0.82,
+            "end": 1.06,
+            "word": "君",
+            "probability": 0.8811
+          },
+          {
+            "start": 1.06,
+            "end": 1.32,
+            "word": "の",
+            "probability": 0.9978
+          },
+          {
+            "start": 1.32,
+            "end": 1.48,
+            "word": "名",
+            "probability": 0.8705
+          },
+          {
+            "start": 1.48,
+            "end": 1.68,
+            "word": "前",
+            "probability": 0.9337
+          },
+          {
+            "start": 1.68,
+            "end": 2.1,
+            "word": "だけ",
+            "probability": 0.9757
+          },
+          {
+            "start": 2.1,
+            "end": 2.46,
+            "word": " ジャ",
+            "probability": 0.9689
+          },
+          {
+            "start": 2.46,
+            "end": 2.74,
+            "word": "スト",
+            "probability": 0.996
+          },
+          {
+            "start": 2.74,
+            "end": 3.1,
+            "word": "で",
+            "probability": 0.9937
+          },
+          {
+            "start": 3.1,
+            "end": 3.36,
+            "word": "響",
+            "probability": 0.9956
+          },
+          {
+            "start": 3.36,
+            "end": 3.74,
+            "word": "いて。",
+            "probability": 0.9815
+          }
+        ]
+      },
+      {
+        "start": 3.84,
+        "end": 7.86,
+        "text": "ミュートできない痛みが リズムを刻んでる。",
+        "words": [
+          {
+            "start": 3.84,
+            "end": 4.02,
+            "word": "ミ",
+            "probability": 0.0021
+          },
+          {
+            "start": 4.02,
+            "end": 4.1,
+            "word": "ュ",
+            "probability": 0.2027
+          },
+          {
+            "start": 4.1,
+            "end": 4.18,
+            "word": "ート",
+            "probability": 0.9692
+          },
+          {
+            "start": 4.18,
+            "end": 4.48,
+            "word": "でき",
+            "probability": 0.4186
+          },
+          {
+            "start": 4.48,
+            "end": 4.86,
+            "word": "ない",
+            "probability": 0.961
+          },
+          {
+            "start": 4.86,
+            "end": 5.1,
+            "word": "痛",
+            "probability": 0.8438
+          },
+          {
+            "start": 5.1,
+            "end": 5.42,
+            "word": "み",
+            "probability": 0.9997
+          },
+          {
+            "start": 5.42,
+            "end": 5.56,
+            "word": "が",
+            "probability": 0.9962
+          },
+          {
+            "start": 5.62,
+            "end": 5.82,
+            "word": " リ",
+            "probability": 0.9928
+          },
+          {
+            "start": 5.82,
+            "end": 6.02,
+            "word": "ズ",
+            "probability": 0.9998
+          },
+          {
+            "start": 6.02,
+            "end": 6.26,
+            "word": "ム",
+            "probability": 0.9999
+          },
+          {
+            "start": 6.26,
+            "end": 6.36,
+            "word": "を",
+            "probability": 0.9965
+          },
+          {
+            "start": 6.36,
+            "end": 6.74,
+            "word": "刻",
+            "probability": 0.9941
+          },
+          {
+            "start": 6.74,
+            "end": 7.5,
+            "word": "んで",
+            "probability": 0.9966
+          },
+          {
+            "start": 7.5,
+            "end": 7.86,
+            "word": "る。",
+            "probability": 0.7885
+          }
+        ]
+      },
+      {
+        "start": 8.42,
+        "end": 11.58,
+        "text": "ねえ 戻れないね イントロの静けさに。",
+        "words": [
+          {
+            "start": 8.42,
+            "end": 8.9,
+            "word": "ね",
+            "probability": 0.0176
+          },
+          {
+            "start": 8.9,
+            "end": 9.14,
+            "word": "え",
+            "probability": 0.3977
+          },
+          {
+            "start": 9.14,
+            "end": 9.26,
+            "word": " 戻",
+            "probability": 0.4984
+          },
+          {
+            "start": 9.26,
+            "end": 9.54,
+            "word": "れない",
+            "probability": 0.9965
+          },
+          {
+            "start": 9.54,
+            "end": 9.78,
+            "word": "ね",
+            "probability": 0.3504
+          },
+          {
+            "start": 9.86,
+            "end": 9.98,
+            "word": " イ",
+            "probability": 0.9879
+          },
+          {
+            "start": 9.98,
+            "end": 10.22,
+            "word": "ント",
+            "probability": 0.9988
+          },
+          {
+            "start": 10.22,
+            "end": 10.4,
+            "word": "ロ",
+            "probability": 0.9972
+          },
+          {
+            "start": 10.4,
+            "end": 10.66,
+            "word": "の",
+            "probability": 0.9956
+          },
+          {
+            "start": 10.66,
+            "end": 10.98,
+            "word": "静",
+            "probability": 0.962
+          },
+          {
+            "start": 10.98,
+            "end": 11.34,
+            "word": "け",
+            "probability": 0.9755
+          },
+          {
+            "start": 11.34,
+            "end": 11.5,
+            "word": "さ",
+            "probability": 0.9998
+          },
+          {
+            "start": 11.5,
+            "end": 11.58,
+            "word": "に。",
+            "probability": 0.9979
+          }
+        ]
+      },
+      {
+        "start": 11.74,
+        "end": 14.76,
+        "text": "でもまだ フルボリュームの絶望じゃない",
+        "words": [
+          {
+            "start": 11.74,
+            "end": 12.16,
+            "word": "でも",
+            "probability": 0.5594
+          },
+          {
+            "start": 12.16,
+            "end": 12.58,
+            "word": "まだ",
+            "probability": 0.6445
+          },
+          {
+            "start": 12.58,
+            "end": 12.86,
+            "word": " フ",
+            "probability": 0.6526
+          },
+          {
+            "start": 12.86,
+            "end": 13.06,
+            "word": "ル",
+            "probability": 0.9305
+          },
+          {
+            "start": 13.06,
+            "end": 13.12,
+            "word": "ボ",
+            "probability": 0.9892
+          },
+          {
+            "start": 13.12,
+            "end": 13.26,
+            "word": "リ",
+            "probability": 0.9982
+          },
+          {
+            "start": 13.26,
+            "end": 13.32,
+            "word": "ュ",
+            "probability": 0.9978
+          },
+          {
+            "start": 13.32,
+            "end": 13.52,
+            "word": "ーム",
+            "probability": 0.9981
+          },
+          {
+            "start": 13.52,
+            "end": 13.7,
+            "word": "の",
+            "probability": 0.9915
+          },
+          {
+            "start": 13.7,
+            "end": 14.1,
+            "word": "絶",
+            "probability": 0.9194
+          },
+          {
+            "start": 14.1,
+            "end": 14.44,
+            "word": "望",
+            "probability": 0.9998
+          },
+          {
+            "start": 14.44,
+            "end": 14.76,
+            "word": "じゃない",
+            "probability": 0.822
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "kind": "legacy_revalidation",
+      "video_sha256": "249ae83b49903f4761d5ba6b08c81618fa6e2d308ac960c4d21a843da06f6068",
+      "max_line_deviation_seconds": 0.16,
+      "status": "FAIL",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "それでも君の名前だけ ジャストで響いて",
+          "recognized_text": "それでも君の名前だけジャストで響いて。",
+          "recognized_start": 0.0,
+          "recognized_end": 3.74,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9463,
+          "word_start_index": 0,
+          "word_end_index": 12,
+          "display_start": 0.0,
+          "display_end": 3.76,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.02,
+          "max_deviation_seconds": 0.02,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "ミュートできない痛みが リズムを刻んでる",
+          "recognized_text": "ミュートできない痛みがリズムを刻んでる。",
+          "recognized_start": 3.84,
+          "recognized_end": 7.86,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8108,
+          "word_start_index": 12,
+          "word_end_index": 27,
+          "display_start": 3.76,
+          "display_end": 7.84,
+          "start_deviation_seconds": 0.08,
+          "end_deviation_seconds": 0.02,
+          "max_deviation_seconds": 0.08,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "ねえ 戻れないね イントロの静けさに",
+          "recognized_text": "ねえ戻れないねイントロの静けさに。",
+          "recognized_start": 8.42,
+          "recognized_end": 11.58,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.7827,
+          "word_start_index": 27,
+          "word_end_index": 40,
+          "display_start": 8.58,
+          "display_end": 11.68,
+          "start_deviation_seconds": 0.16,
+          "end_deviation_seconds": 0.1,
+          "max_deviation_seconds": 0.16,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 4,
+          "text": "でもまだ フルボリュームの絶望じゃない",
+          "recognized_text": "でもまだフルボリュームの絶望じゃない",
+          "recognized_start": 11.74,
+          "recognized_end": 14.76,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8752,
+          "word_start_index": 40,
+          "word_end_index": 52,
+          "display_start": 11.68,
+          "display_end": 14.8,
+          "start_deviation_seconds": 0.06,
+          "end_deviation_seconds": 0.04,
+          "max_deviation_seconds": 0.06,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "kind": "automatic_realign_revalidation",
+      "video_sha256": "06b80712e35ba3bcfdfbdad6a459ecb2e3c7610e22c0e21a96df4afad5bef739",
+      "max_line_deviation_seconds": 0.0,
+      "status": "PASS",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "それでも君の名前だけ ジャストで響いて",
+          "recognized_text": "それでも君の名前だけジャストで響いて。",
+          "recognized_start": 0.0,
+          "recognized_end": 3.74,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9463,
+          "word_start_index": 0,
+          "word_end_index": 12,
+          "display_start": 0.0,
+          "display_end": 3.74,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "ミュートできない痛みが リズムを刻んでる",
+          "recognized_text": "ミュートできない痛みがリズムを刻んでる。",
+          "recognized_start": 3.84,
+          "recognized_end": 7.86,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8108,
+          "word_start_index": 12,
+          "word_end_index": 27,
+          "display_start": 3.84,
+          "display_end": 7.86,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "ねえ 戻れないね イントロの静けさに",
+          "recognized_text": "ねえ戻れないねイントロの静けさに。",
+          "recognized_start": 8.42,
+          "recognized_end": 11.58,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.7827,
+          "word_start_index": 27,
+          "word_end_index": 40,
+          "display_start": 8.42,
+          "display_end": 11.58,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 4,
+          "text": "でもまだ フルボリュームの絶望じゃない",
+          "recognized_text": "でもまだフルボリュームの絶望じゃない",
+          "recognized_start": 11.74,
+          "recognized_end": 14.76,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8752,
+          "word_start_index": 40,
+          "word_end_index": 52,
+          "display_start": 11.74,
+          "display_end": 14.76,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "queue_mutation": false,
+  "external_publish": false,
+  "fable_review": {
+    "status": "PENDING_Fable",
+    "max_deviation_ms_checked": null,
+    "verification_strip_checked": null,
+    "decided_at": null
+  },
+  "report": "061_sync_gate.json",
+  "verification_strip": "061_verification_strip.png"
+}

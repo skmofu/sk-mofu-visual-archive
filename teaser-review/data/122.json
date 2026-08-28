@@ -1,0 +1,498 @@
+{
+  "schema": "teaser-sync-gate.v2",
+  "verified_at": "2026-08-28T22:59:55+09:00",
+  "status": "PASS",
+  "threshold_seconds": 0.15,
+  "track_num": 122,
+  "title": "Outline of Light",
+  "language": "en",
+  "legacy_video": "122_Outline_of_Light.mp4",
+  "legacy_video_sha256": "3648a4756fc85c72f8bf895f8113b1c8ddc0def061fdf0aafe1dfe3815f6ef0f",
+  "video": "122_Outline_of_Light.mp4",
+  "video_sha256": "4e282def75e59072415e2d11b5736a943177c7f1ee386547c036f5eef3037fd3",
+  "repaired": true,
+  "repair_attempts": 1,
+  "lyrics_source": "suno_clip_api_exact_prompt_20260722",
+  "lyrics_sha256": "0a12a8c581489aff4375bd5b4860566440600ebc0c8464dba1337d2f9d164383",
+  "subtitle_segments": [
+    {
+      "start": 0.0,
+      "end": 2.24,
+      "text": "Through a crack in the frozen sky"
+    },
+    {
+      "start": 2.4,
+      "end": 4.9,
+      "text": "Morning begins to bleed"
+    },
+    {
+      "start": 4.96,
+      "end": 7.52,
+      "text": "And inside the outline that was empty"
+    },
+    {
+      "start": 7.94,
+      "end": 10.34,
+      "text": "Something starts to glow"
+    }
+  ],
+  "line_results": [
+    {
+      "line_number": 1,
+      "text": "Through a crack in the frozen sky",
+      "recognized_text": "Throughacrackinthefrozensky.",
+      "recognized_start": 0.0,
+      "recognized_end": 2.24,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9165,
+      "word_start_index": 0,
+      "word_end_index": 7,
+      "display_start": 0.0,
+      "display_end": 2.24,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 2,
+      "text": "Morning begins to bleed",
+      "recognized_text": "Morningbeginstobleed.",
+      "recognized_start": 2.4,
+      "recognized_end": 4.9,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9735,
+      "word_start_index": 7,
+      "word_end_index": 11,
+      "display_start": 2.4,
+      "display_end": 4.9,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 3,
+      "text": "And inside the outline that was empty",
+      "recognized_text": "Andinsidetheoutlinethatwasempty.",
+      "recognized_start": 4.96,
+      "recognized_end": 7.52,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9829,
+      "word_start_index": 11,
+      "word_end_index": 18,
+      "display_start": 4.96,
+      "display_end": 7.52,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 4,
+      "text": "Something starts to glow",
+      "recognized_text": "Somethingstartstoglow",
+      "recognized_start": 7.94,
+      "recognized_end": 10.34,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.7707,
+      "word_start_index": 18,
+      "word_end_index": 22,
+      "display_start": 7.94,
+      "display_end": 10.34,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "max_line_deviation_seconds": 0.0,
+  "max_line_deviation_ms": 0,
+  "source_lineage": {
+    "source_wav_sha256": "6fe3105cc5806643a66c25f8fdbf1ba4f9ac2bc4e8b9e3b527b43017026c2084",
+    "audio_start_seconds": 67.18,
+    "audio_start_error_seconds": 0.0,
+    "audio_correlation": 0.998228,
+    "background_name": "hf_20260804_072245_a350d402-ef33-4a35-9c66-8d275f2f6ff0.png",
+    "renderer": "teaser_gen_v2.render_ffmpeg_lyrics_fallback"
+  },
+  "asr": {
+    "engine": "faster-whisper large-v3 (Systran; CPU int8; cached local weights)",
+    "language": "en",
+    "language_probability": 1.0,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 10.34,
+        "text": "Through a crack in the frozen sky. Morning begins to bleed. And inside the outline that was empty. Something starts to glow",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.88,
+            "word": " Through",
+            "probability": 0.5651
+          },
+          {
+            "start": 0.88,
+            "end": 0.94,
+            "word": " a",
+            "probability": 0.8962
+          },
+          {
+            "start": 0.94,
+            "end": 1.18,
+            "word": " crack",
+            "probability": 0.9784
+          },
+          {
+            "start": 1.18,
+            "end": 1.44,
+            "word": " in",
+            "probability": 0.9892
+          },
+          {
+            "start": 1.44,
+            "end": 1.54,
+            "word": " the",
+            "probability": 0.9962
+          },
+          {
+            "start": 1.54,
+            "end": 1.8,
+            "word": " frozen",
+            "probability": 0.9908
+          },
+          {
+            "start": 1.8,
+            "end": 2.24,
+            "word": " sky.",
+            "probability": 0.9996
+          },
+          {
+            "start": 2.4,
+            "end": 3.02,
+            "word": " Morning",
+            "probability": 0.9056
+          },
+          {
+            "start": 3.02,
+            "end": 4.04,
+            "word": " begins",
+            "probability": 0.993
+          },
+          {
+            "start": 4.04,
+            "end": 4.5,
+            "word": " to",
+            "probability": 0.9963
+          },
+          {
+            "start": 4.5,
+            "end": 4.9,
+            "word": " bleed.",
+            "probability": 0.9992
+          },
+          {
+            "start": 4.96,
+            "end": 5.18,
+            "word": " And",
+            "probability": 0.9677
+          },
+          {
+            "start": 5.18,
+            "end": 5.58,
+            "word": " inside",
+            "probability": 0.9965
+          },
+          {
+            "start": 5.58,
+            "end": 5.94,
+            "word": " the",
+            "probability": 0.9951
+          },
+          {
+            "start": 5.94,
+            "end": 6.3,
+            "word": " outline",
+            "probability": 0.9982
+          },
+          {
+            "start": 6.3,
+            "end": 6.68,
+            "word": " that",
+            "probability": 0.9278
+          },
+          {
+            "start": 6.68,
+            "end": 6.94,
+            "word": " was",
+            "probability": 0.9995
+          },
+          {
+            "start": 6.94,
+            "end": 7.52,
+            "word": " empty.",
+            "probability": 0.9958
+          },
+          {
+            "start": 7.94,
+            "end": 8.7,
+            "word": " Something",
+            "probability": 0.9855
+          },
+          {
+            "start": 8.7,
+            "end": 9.46,
+            "word": " starts",
+            "probability": 0.1613
+          },
+          {
+            "start": 9.46,
+            "end": 10.02,
+            "word": " to",
+            "probability": 0.998
+          },
+          {
+            "start": 10.02,
+            "end": 10.34,
+            "word": " glow",
+            "probability": 0.938
+          }
+        ]
+      },
+      {
+        "start": 10.34,
+        "end": 14.74,
+        "text": "The inside of the outline is filling up with light",
+        "words": [
+          {
+            "start": 10.34,
+            "end": 10.64,
+            "word": " The",
+            "probability": 0.0017
+          },
+          {
+            "start": 10.64,
+            "end": 11.22,
+            "word": " inside",
+            "probability": 0.9812
+          },
+          {
+            "start": 11.22,
+            "end": 11.72,
+            "word": " of",
+            "probability": 0.9956
+          },
+          {
+            "start": 11.72,
+            "end": 11.88,
+            "word": " the",
+            "probability": 0.994
+          },
+          {
+            "start": 11.88,
+            "end": 12.46,
+            "word": " outline",
+            "probability": 0.9934
+          },
+          {
+            "start": 12.46,
+            "end": 13.24,
+            "word": " is",
+            "probability": 0.8003
+          },
+          {
+            "start": 13.24,
+            "end": 13.62,
+            "word": " filling",
+            "probability": 0.9824
+          },
+          {
+            "start": 13.62,
+            "end": 14.16,
+            "word": " up",
+            "probability": 0.9859
+          },
+          {
+            "start": 14.16,
+            "end": 14.38,
+            "word": " with",
+            "probability": 0.9968
+          },
+          {
+            "start": 14.38,
+            "end": 14.74,
+            "word": " light",
+            "probability": 0.8405
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "kind": "legacy_revalidation",
+      "video_sha256": "3648a4756fc85c72f8bf895f8113b1c8ddc0def061fdf0aafe1dfe3815f6ef0f",
+      "max_line_deviation_seconds": 0.42,
+      "status": "FAIL",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "Through a crack in the frozen sky",
+          "recognized_text": "Throughacrackinthefrozensky.",
+          "recognized_start": 0.0,
+          "recognized_end": 2.24,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9165,
+          "word_start_index": 0,
+          "word_end_index": 7,
+          "display_start": 0.0,
+          "display_end": 2.24,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "Morning begins to bleed",
+          "recognized_text": "Morningbeginstobleed.",
+          "recognized_start": 2.4,
+          "recognized_end": 4.9,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9735,
+          "word_start_index": 7,
+          "word_end_index": 11,
+          "display_start": 2.24,
+          "display_end": 4.84,
+          "start_deviation_seconds": 0.16,
+          "end_deviation_seconds": 0.06,
+          "max_deviation_seconds": 0.16,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 3,
+          "text": "And inside the outline that was empty",
+          "recognized_text": "Andinsidetheoutlinethatwasempty.",
+          "recognized_start": 4.96,
+          "recognized_end": 7.52,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9829,
+          "word_start_index": 11,
+          "word_end_index": 18,
+          "display_start": 4.84,
+          "display_end": 7.52,
+          "start_deviation_seconds": 0.12,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.12,
+          "status": "PASS"
+        },
+        {
+          "line_number": 4,
+          "text": "Something starts to glow",
+          "recognized_text": "Somethingstartstoglow",
+          "recognized_start": 7.94,
+          "recognized_end": 10.34,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.7707,
+          "word_start_index": 18,
+          "word_end_index": 22,
+          "display_start": 7.52,
+          "display_end": 10.38,
+          "start_deviation_seconds": 0.42,
+          "end_deviation_seconds": 0.04,
+          "max_deviation_seconds": 0.42,
+          "status": "FAIL"
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "kind": "automatic_realign_revalidation",
+      "video_sha256": "4e282def75e59072415e2d11b5736a943177c7f1ee386547c036f5eef3037fd3",
+      "max_line_deviation_seconds": 0.0,
+      "status": "PASS",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "Through a crack in the frozen sky",
+          "recognized_text": "Throughacrackinthefrozensky.",
+          "recognized_start": 0.0,
+          "recognized_end": 2.24,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9165,
+          "word_start_index": 0,
+          "word_end_index": 7,
+          "display_start": 0.0,
+          "display_end": 2.24,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "Morning begins to bleed",
+          "recognized_text": "Morningbeginstobleed.",
+          "recognized_start": 2.4,
+          "recognized_end": 4.9,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9735,
+          "word_start_index": 7,
+          "word_end_index": 11,
+          "display_start": 2.4,
+          "display_end": 4.9,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "And inside the outline that was empty",
+          "recognized_text": "Andinsidetheoutlinethatwasempty.",
+          "recognized_start": 4.96,
+          "recognized_end": 7.52,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9829,
+          "word_start_index": 11,
+          "word_end_index": 18,
+          "display_start": 4.96,
+          "display_end": 7.52,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 4,
+          "text": "Something starts to glow",
+          "recognized_text": "Somethingstartstoglow",
+          "recognized_start": 7.94,
+          "recognized_end": 10.34,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.7707,
+          "word_start_index": 18,
+          "word_end_index": 22,
+          "display_start": 7.94,
+          "display_end": 10.34,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "queue_mutation": false,
+  "external_publish": false,
+  "fable_review": {
+    "status": "PENDING_Fable",
+    "max_deviation_ms_checked": null,
+    "verification_strip_checked": null,
+    "decided_at": null
+  },
+  "report": "122_sync_gate.json",
+  "verification_strip": "122_verification_strip.png"
+}

@@ -1,0 +1,486 @@
+{
+  "schema": "teaser-sync-gate.v2",
+  "verified_at": "2026-08-28T22:32:02+09:00",
+  "status": "PASS",
+  "threshold_seconds": 0.15,
+  "track_num": 114,
+  "title": "Breathless City",
+  "language": "en",
+  "legacy_video": "114_Breathless_City.mp4",
+  "legacy_video_sha256": "556c8e3b3e37333e33ad36d4cbda46a43c0aaf1e043c2aeb5122944d38bde098",
+  "video": "114_Breathless_City.mp4",
+  "video_sha256": "76e8b58d7810a390b12f4877211cb7e956d63c2d86e4f236c68e98a0a86f7abc",
+  "repaired": true,
+  "repair_attempts": 1,
+  "lyrics_source": "suno_clip_api_exact_prompt_20260722",
+  "lyrics_sha256": "7e99ba6b402a688f00b61ab143e7ab4020766d1efa31e3013fd78a97321a6ce3",
+  "subtitle_segments": [
+    {
+      "start": 0.0,
+      "end": 2.26,
+      "text": "In a city that can't stop"
+    },
+    {
+      "start": 2.36,
+      "end": 5.22,
+      "text": "Only my breathing runs late"
+    },
+    {
+      "start": 5.64,
+      "end": 7.48,
+      "text": "This accelerating heartbeat"
+    },
+    {
+      "start": 8.22,
+      "end": 10.9,
+      "text": "Who designed it this way?"
+    }
+  ],
+  "line_results": [
+    {
+      "line_number": 1,
+      "text": "In a city that can't stop",
+      "recognized_text": "Inacitythatcan'tstop.",
+      "recognized_start": 0.0,
+      "recognized_end": 2.26,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8712,
+      "word_start_index": 0,
+      "word_end_index": 6,
+      "display_start": 0.0,
+      "display_end": 2.26,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 2,
+      "text": "Only my breathing runs late",
+      "recognized_text": "Onlymybreathingrunslate.",
+      "recognized_start": 2.36,
+      "recognized_end": 5.22,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9763,
+      "word_start_index": 6,
+      "word_end_index": 11,
+      "display_start": 2.36,
+      "display_end": 5.22,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 3,
+      "text": "This accelerating heartbeat",
+      "recognized_text": "Thisacceleratingheartbeat.",
+      "recognized_start": 5.64,
+      "recognized_end": 7.48,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9441,
+      "word_start_index": 11,
+      "word_end_index": 14,
+      "display_start": 5.64,
+      "display_end": 7.48,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 4,
+      "text": "Who designed it this way?",
+      "recognized_text": "Whodesigneditthisway?",
+      "recognized_start": 8.22,
+      "recognized_end": 10.9,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9807,
+      "word_start_index": 14,
+      "word_end_index": 19,
+      "display_start": 8.22,
+      "display_end": 10.9,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "max_line_deviation_seconds": 0.0,
+  "max_line_deviation_ms": 0,
+  "source_lineage": {
+    "source_wav_sha256": "657246a00deb602111e496a811727c0558f23a4f6d8d71e4261170f772169f1a",
+    "audio_start_seconds": 84.28,
+    "audio_start_error_seconds": 0.0,
+    "audio_correlation": 0.998516,
+    "background_name": "hf_20260706_050316_7f2ccb46-308f-4bd2-b9b8-efa1cc1ec69a.png",
+    "renderer": "teaser_gen_v2.render_ffmpeg_lyrics_fallback"
+  },
+  "asr": {
+    "engine": "faster-whisper large-v3 (Systran; CPU int8; cached local weights)",
+    "language": "en",
+    "language_probability": 1.0,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 10.9,
+        "text": "In a city that can't stop. Only my breathing runs late. This accelerating heartbeat. Who designed it this way?",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.98,
+            "word": " In",
+            "probability": 0.2658
+          },
+          {
+            "start": 0.98,
+            "end": 1.04,
+            "word": " a",
+            "probability": 0.9859
+          },
+          {
+            "start": 1.04,
+            "end": 1.4,
+            "word": " city",
+            "probability": 0.9933
+          },
+          {
+            "start": 1.4,
+            "end": 1.64,
+            "word": " that",
+            "probability": 0.9896
+          },
+          {
+            "start": 1.64,
+            "end": 2.0,
+            "word": " can't",
+            "probability": 0.9944
+          },
+          {
+            "start": 2.0,
+            "end": 2.26,
+            "word": " stop.",
+            "probability": 0.9984
+          },
+          {
+            "start": 2.36,
+            "end": 2.9,
+            "word": " Only",
+            "probability": 0.9253
+          },
+          {
+            "start": 2.9,
+            "end": 3.2,
+            "word": " my",
+            "probability": 0.9901
+          },
+          {
+            "start": 3.2,
+            "end": 3.84,
+            "word": " breathing",
+            "probability": 0.9877
+          },
+          {
+            "start": 3.84,
+            "end": 4.52,
+            "word": " runs",
+            "probability": 0.9816
+          },
+          {
+            "start": 4.52,
+            "end": 5.22,
+            "word": " late.",
+            "probability": 0.9967
+          },
+          {
+            "start": 5.64,
+            "end": 6.0,
+            "word": " This",
+            "probability": 0.971
+          },
+          {
+            "start": 6.0,
+            "end": 6.66,
+            "word": " accelerating",
+            "probability": 0.9147
+          },
+          {
+            "start": 6.66,
+            "end": 7.48,
+            "word": " heartbeat.",
+            "probability": 0.9465
+          },
+          {
+            "start": 8.22,
+            "end": 8.94,
+            "word": " Who",
+            "probability": 0.9932
+          },
+          {
+            "start": 8.94,
+            "end": 9.4,
+            "word": " designed",
+            "probability": 0.9878
+          },
+          {
+            "start": 9.4,
+            "end": 10.24,
+            "word": " it",
+            "probability": 0.9273
+          },
+          {
+            "start": 10.24,
+            "end": 10.68,
+            "word": " this",
+            "probability": 0.9963
+          },
+          {
+            "start": 10.68,
+            "end": 10.9,
+            "word": " way?",
+            "probability": 0.9988
+          }
+        ]
+      },
+      {
+        "start": 12.8,
+        "end": 14.98,
+        "text": "In a city that can't stop. Only my breathing runs late.",
+        "words": [
+          {
+            "start": 12.54,
+            "end": 12.94,
+            "word": " In",
+            "probability": 0.9919
+          },
+          {
+            "start": 12.94,
+            "end": 13.14,
+            "word": " a",
+            "probability": 0.9957
+          },
+          {
+            "start": 13.14,
+            "end": 13.5,
+            "word": " city",
+            "probability": 0.9997
+          },
+          {
+            "start": 13.5,
+            "end": 13.74,
+            "word": " that",
+            "probability": 0.9969
+          },
+          {
+            "start": 13.74,
+            "end": 14.12,
+            "word": " can't",
+            "probability": 0.9996
+          },
+          {
+            "start": 14.12,
+            "end": 14.34,
+            "word": " stop.",
+            "probability": 0.9994
+          },
+          {
+            "start": 14.4,
+            "end": 14.86,
+            "word": " Only",
+            "probability": 0.8953
+          },
+          {
+            "start": 14.86,
+            "end": 14.98,
+            "word": " my",
+            "probability": 0.7987
+          },
+          {
+            "start": 14.98,
+            "end": 14.98,
+            "word": " breathing",
+            "probability": 0.927
+          },
+          {
+            "start": 14.98,
+            "end": 14.98,
+            "word": " runs",
+            "probability": 0.9375
+          },
+          {
+            "start": 14.98,
+            "end": 14.98,
+            "word": " late.",
+            "probability": 0.9856
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "kind": "legacy_revalidation",
+      "video_sha256": "556c8e3b3e37333e33ad36d4cbda46a43c0aaf1e043c2aeb5122944d38bde098",
+      "max_line_deviation_seconds": 0.74,
+      "status": "FAIL",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "In a city that can't stop",
+          "recognized_text": "Inacitythatcan'tstop.",
+          "recognized_start": 0.0,
+          "recognized_end": 2.26,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8712,
+          "word_start_index": 0,
+          "word_end_index": 6,
+          "display_start": 0.0,
+          "display_end": 2.28,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.02,
+          "max_deviation_seconds": 0.02,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "Only my breathing runs late",
+          "recognized_text": "Onlymybreathingrunslate.",
+          "recognized_start": 2.36,
+          "recognized_end": 5.22,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9763,
+          "word_start_index": 6,
+          "word_end_index": 11,
+          "display_start": 2.28,
+          "display_end": 5.22,
+          "start_deviation_seconds": 0.08,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.08,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "This accelerating heartbeat",
+          "recognized_text": "Thisacceleratingheartbeat.",
+          "recognized_start": 5.64,
+          "recognized_end": 7.48,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9441,
+          "word_start_index": 11,
+          "word_end_index": 14,
+          "display_start": 5.22,
+          "display_end": 7.48,
+          "start_deviation_seconds": 0.42,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.42,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 4,
+          "text": "Who designed it this way?",
+          "recognized_text": "Whodesigneditthisway?",
+          "recognized_start": 8.22,
+          "recognized_end": 10.9,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9807,
+          "word_start_index": 14,
+          "word_end_index": 19,
+          "display_start": 7.48,
+          "display_end": 10.9,
+          "start_deviation_seconds": 0.74,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.74,
+          "status": "FAIL"
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "kind": "automatic_realign_revalidation",
+      "video_sha256": "76e8b58d7810a390b12f4877211cb7e956d63c2d86e4f236c68e98a0a86f7abc",
+      "max_line_deviation_seconds": 0.0,
+      "status": "PASS",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "In a city that can't stop",
+          "recognized_text": "Inacitythatcan'tstop.",
+          "recognized_start": 0.0,
+          "recognized_end": 2.26,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8712,
+          "word_start_index": 0,
+          "word_end_index": 6,
+          "display_start": 0.0,
+          "display_end": 2.26,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "Only my breathing runs late",
+          "recognized_text": "Onlymybreathingrunslate.",
+          "recognized_start": 2.36,
+          "recognized_end": 5.22,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9763,
+          "word_start_index": 6,
+          "word_end_index": 11,
+          "display_start": 2.36,
+          "display_end": 5.22,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "This accelerating heartbeat",
+          "recognized_text": "Thisacceleratingheartbeat.",
+          "recognized_start": 5.64,
+          "recognized_end": 7.48,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9441,
+          "word_start_index": 11,
+          "word_end_index": 14,
+          "display_start": 5.64,
+          "display_end": 7.48,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 4,
+          "text": "Who designed it this way?",
+          "recognized_text": "Whodesigneditthisway?",
+          "recognized_start": 8.22,
+          "recognized_end": 10.9,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9807,
+          "word_start_index": 14,
+          "word_end_index": 19,
+          "display_start": 8.22,
+          "display_end": 10.9,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "queue_mutation": false,
+  "external_publish": false,
+  "fable_review": {
+    "status": "PENDING_Fable",
+    "max_deviation_ms_checked": null,
+    "verification_strip_checked": null,
+    "decided_at": null
+  },
+  "report": "114_sync_gate.json",
+  "verification_strip": "114_verification_strip.png"
+}

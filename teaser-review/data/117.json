@@ -1,0 +1,505 @@
+{
+  "schema": "teaser-sync-gate.v2",
+  "verified_at": "2026-08-28T22:33:06+09:00",
+  "status": "PASS",
+  "threshold_seconds": 0.15,
+  "track_num": 117,
+  "title": "余り",
+  "language": "ja",
+  "legacy_video": "117_余り.mp4",
+  "legacy_video_sha256": "43934aacf8930848b49fd34f8319b6d7eddcc21a34fcd61a9619c8e580265a75",
+  "video": "117_余り.mp4",
+  "video_sha256": "e089545a858e765086611692d5140951ab57d17f2ad95be1331e0f48d524826d",
+  "repaired": true,
+  "repair_attempts": 1,
+  "lyrics_source": "suno_clip_api_exact_prompt_20260722",
+  "lyrics_sha256": "514d5042e73830dd316b02fa341e20765ef2741618533f0979aa7b69625ae4c1",
+  "subtitle_segments": [
+    {
+      "start": 0.0,
+      "end": 2.42,
+      "text": "割り切れない鼓動で"
+    },
+    {
+      "start": 2.5,
+      "end": 4.72,
+      "text": "世界を除算する"
+    },
+    {
+      "start": 5.02,
+      "end": 6.54,
+      "text": "余りだけが"
+    },
+    {
+      "start": 6.54,
+      "end": 8.48,
+      "text": "私の名前"
+    }
+  ],
+  "line_results": [
+    {
+      "line_number": 1,
+      "text": "割り切れない鼓動で",
+      "recognized_text": "割り切れない鼓動で。",
+      "recognized_start": 0.0,
+      "recognized_end": 2.42,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9924,
+      "word_start_index": 0,
+      "word_end_index": 7,
+      "display_start": 0.0,
+      "display_end": 2.42,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 2,
+      "text": "世界を除算する",
+      "recognized_text": "世界を除算する。",
+      "recognized_start": 2.5,
+      "recognized_end": 4.72,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.611,
+      "word_start_index": 7,
+      "word_end_index": 12,
+      "display_start": 2.5,
+      "display_end": 4.72,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 3,
+      "text": "余りだけが",
+      "recognized_text": "余りだけが。",
+      "recognized_start": 5.02,
+      "recognized_end": 6.54,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8939,
+      "word_start_index": 12,
+      "word_end_index": 16,
+      "display_start": 5.02,
+      "display_end": 6.54,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 4,
+      "text": "私の名前",
+      "recognized_text": "私の名前",
+      "recognized_start": 6.54,
+      "recognized_end": 8.48,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9733,
+      "word_start_index": 16,
+      "word_end_index": 20,
+      "display_start": 6.54,
+      "display_end": 8.48,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "max_line_deviation_seconds": 0.0,
+  "max_line_deviation_ms": 0,
+  "source_lineage": {
+    "source_wav_sha256": "463c0972f07861e33f0da2f1a88c0f9fc14064ac09f6a8a55ec13f11e6949572",
+    "audio_start_seconds": 28.52,
+    "audio_start_error_seconds": 0.0,
+    "audio_correlation": 0.998762,
+    "background_name": "hf_20260721_115821_72d7d1c1-99bf-4b40-9d44-9177baa871be.png",
+    "renderer": "teaser_gen_v2.render_ffmpeg_lyrics_fallback"
+  },
+  "asr": {
+    "engine": "faster-whisper large-v3 (Systran; CPU int8; cached local weights)",
+    "language": "ja",
+    "language_probability": 1.0,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.72,
+        "text": "割り切れない鼓動で。世界を除算する。",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.78,
+            "word": "割",
+            "probability": 0.9535
+          },
+          {
+            "start": 0.78,
+            "end": 0.88,
+            "word": "り",
+            "probability": 0.9968
+          },
+          {
+            "start": 0.88,
+            "end": 0.96,
+            "word": "切",
+            "probability": 0.9986
+          },
+          {
+            "start": 0.96,
+            "end": 1.38,
+            "word": "れない",
+            "probability": 0.9989
+          },
+          {
+            "start": 1.38,
+            "end": 1.92,
+            "word": "鼓",
+            "probability": 0.9993
+          },
+          {
+            "start": 1.92,
+            "end": 2.04,
+            "word": "動",
+            "probability": 0.9999
+          },
+          {
+            "start": 2.04,
+            "end": 2.42,
+            "word": "で。",
+            "probability": 0.9996
+          },
+          {
+            "start": 2.5,
+            "end": 3.04,
+            "word": "世界",
+            "probability": 0.8634
+          },
+          {
+            "start": 3.04,
+            "end": 3.72,
+            "word": "を",
+            "probability": 0.9988
+          },
+          {
+            "start": 3.72,
+            "end": 4.02,
+            "word": "除",
+            "probability": 0.1393
+          },
+          {
+            "start": 4.02,
+            "end": 4.32,
+            "word": "算",
+            "probability": 0.0585
+          },
+          {
+            "start": 4.32,
+            "end": 4.72,
+            "word": "する。",
+            "probability": 0.9952
+          }
+        ]
+      },
+      {
+        "start": 5.02,
+        "end": 8.48,
+        "text": "余りだけが。私の名前",
+        "words": [
+          {
+            "start": 5.02,
+            "end": 5.56,
+            "word": "余",
+            "probability": 0.5888
+          },
+          {
+            "start": 5.56,
+            "end": 5.78,
+            "word": "り",
+            "probability": 0.9962
+          },
+          {
+            "start": 5.78,
+            "end": 6.06,
+            "word": "だけ",
+            "probability": 0.9964
+          },
+          {
+            "start": 6.06,
+            "end": 6.54,
+            "word": "が。",
+            "probability": 0.9943
+          },
+          {
+            "start": 6.54,
+            "end": 7.16,
+            "word": "私",
+            "probability": 0.9008
+          },
+          {
+            "start": 7.16,
+            "end": 7.74,
+            "word": "の",
+            "probability": 0.9989
+          },
+          {
+            "start": 7.74,
+            "end": 8.04,
+            "word": "名",
+            "probability": 0.9939
+          },
+          {
+            "start": 8.04,
+            "end": 8.48,
+            "word": "前",
+            "probability": 0.9994
+          }
+        ]
+      },
+      {
+        "start": 9.78,
+        "end": 14.48,
+        "text": "割り切れない鼓動で。世界を除算する。",
+        "words": [
+          {
+            "start": 9.78,
+            "end": 10.56,
+            "word": "割",
+            "probability": 0.5113
+          },
+          {
+            "start": 10.56,
+            "end": 10.68,
+            "word": "り",
+            "probability": 0.9977
+          },
+          {
+            "start": 10.68,
+            "end": 10.74,
+            "word": "切",
+            "probability": 0.9933
+          },
+          {
+            "start": 10.74,
+            "end": 11.16,
+            "word": "れない",
+            "probability": 0.9972
+          },
+          {
+            "start": 11.16,
+            "end": 11.7,
+            "word": "鼓",
+            "probability": 0.9985
+          },
+          {
+            "start": 11.7,
+            "end": 11.86,
+            "word": "動",
+            "probability": 1.0
+          },
+          {
+            "start": 11.86,
+            "end": 12.24,
+            "word": "で。",
+            "probability": 0.9992
+          },
+          {
+            "start": 12.34,
+            "end": 12.9,
+            "word": "世界",
+            "probability": 0.9882
+          },
+          {
+            "start": 12.9,
+            "end": 13.52,
+            "word": "を",
+            "probability": 0.9995
+          },
+          {
+            "start": 13.52,
+            "end": 13.8,
+            "word": "除",
+            "probability": 0.9971
+          },
+          {
+            "start": 13.8,
+            "end": 14.08,
+            "word": "算",
+            "probability": 0.9982
+          },
+          {
+            "start": 14.08,
+            "end": 14.48,
+            "word": "する。",
+            "probability": 0.9956
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "kind": "legacy_revalidation",
+      "video_sha256": "43934aacf8930848b49fd34f8319b6d7eddcc21a34fcd61a9619c8e580265a75",
+      "max_line_deviation_seconds": 0.3,
+      "status": "FAIL",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "割り切れない鼓動で",
+          "recognized_text": "割り切れない鼓動で。",
+          "recognized_start": 0.0,
+          "recognized_end": 2.42,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9924,
+          "word_start_index": 0,
+          "word_end_index": 7,
+          "display_start": 0.0,
+          "display_end": 2.44,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.02,
+          "max_deviation_seconds": 0.02,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "世界を除算する",
+          "recognized_text": "世界を除算する。",
+          "recognized_start": 2.5,
+          "recognized_end": 4.72,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.611,
+          "word_start_index": 7,
+          "word_end_index": 12,
+          "display_start": 2.44,
+          "display_end": 4.72,
+          "start_deviation_seconds": 0.06,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.06,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "余りだけが",
+          "recognized_text": "余りだけが。",
+          "recognized_start": 5.02,
+          "recognized_end": 6.54,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8939,
+          "word_start_index": 12,
+          "word_end_index": 16,
+          "display_start": 4.72,
+          "display_end": 6.4,
+          "start_deviation_seconds": 0.3,
+          "end_deviation_seconds": 0.14,
+          "max_deviation_seconds": 0.3,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 4,
+          "text": "私の名前",
+          "recognized_text": "私の名前",
+          "recognized_start": 6.54,
+          "recognized_end": 8.48,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9733,
+          "word_start_index": 16,
+          "word_end_index": 20,
+          "display_start": 6.4,
+          "display_end": 8.52,
+          "start_deviation_seconds": 0.14,
+          "end_deviation_seconds": 0.04,
+          "max_deviation_seconds": 0.14,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "kind": "automatic_realign_revalidation",
+      "video_sha256": "e089545a858e765086611692d5140951ab57d17f2ad95be1331e0f48d524826d",
+      "max_line_deviation_seconds": 0.0,
+      "status": "PASS",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "割り切れない鼓動で",
+          "recognized_text": "割り切れない鼓動で。",
+          "recognized_start": 0.0,
+          "recognized_end": 2.42,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9924,
+          "word_start_index": 0,
+          "word_end_index": 7,
+          "display_start": 0.0,
+          "display_end": 2.42,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "世界を除算する",
+          "recognized_text": "世界を除算する。",
+          "recognized_start": 2.5,
+          "recognized_end": 4.72,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.611,
+          "word_start_index": 7,
+          "word_end_index": 12,
+          "display_start": 2.5,
+          "display_end": 4.72,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "余りだけが",
+          "recognized_text": "余りだけが。",
+          "recognized_start": 5.02,
+          "recognized_end": 6.54,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8939,
+          "word_start_index": 12,
+          "word_end_index": 16,
+          "display_start": 5.02,
+          "display_end": 6.54,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 4,
+          "text": "私の名前",
+          "recognized_text": "私の名前",
+          "recognized_start": 6.54,
+          "recognized_end": 8.48,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9733,
+          "word_start_index": 16,
+          "word_end_index": 20,
+          "display_start": 6.54,
+          "display_end": 8.48,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "queue_mutation": false,
+  "external_publish": false,
+  "fable_review": {
+    "status": "PENDING_Fable",
+    "max_deviation_ms_checked": null,
+    "verification_strip_checked": null,
+    "decided_at": null
+  },
+  "report": "117_sync_gate.json",
+  "verification_strip": "117_verification_strip.png"
+}

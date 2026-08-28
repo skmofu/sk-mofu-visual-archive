@@ -1,0 +1,327 @@
+{
+  "schema": "teaser-sync-gate.v2",
+  "verified_at": "2026-08-28T23:05:38+09:00",
+  "status": "PASS",
+  "threshold_seconds": 0.15,
+  "track_num": 121,
+  "title": "光の輪郭",
+  "language": "ja",
+  "legacy_video": "121_光の輪郭.mp4",
+  "legacy_video_sha256": "68ffcf3c396b12a96284bc4093b238f8e3d1a0f2c87ee57f5f24cf98629d8ee6",
+  "video": "121_光の輪郭.mp4",
+  "video_sha256": "68ffcf3c396b12a96284bc4093b238f8e3d1a0f2c87ee57f5f24cf98629d8ee6",
+  "repaired": false,
+  "repair_attempts": 0,
+  "lyrics_source": "suno_clip_api_exact_prompt_20260722",
+  "lyrics_sha256": "156710a01ee3edfc1def458a4a5a1b11d2eb4240c846d24aab3201fc77542c2a",
+  "subtitle_segments": [
+    {
+      "start": 0.0,
+      "end": 2.26,
+      "text": "滅びた世界の向こうで"
+    },
+    {
+      "start": 2.34,
+      "end": 4.78,
+      "text": "きみの声が 鳴っている"
+    },
+    {
+      "start": 4.86,
+      "end": 8.96,
+      "text": "(ずっと ここにいたよ)"
+    }
+  ],
+  "line_results": [
+    {
+      "line_number": 1,
+      "text": "滅びた世界の向こうで",
+      "recognized_text": "滅びた世界の向こうで。",
+      "recognized_start": 0.0,
+      "recognized_end": 2.26,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9868,
+      "word_start_index": 0,
+      "word_end_index": 8,
+      "display_start": 0.0,
+      "display_end": 2.26,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 2,
+      "text": "きみの声が 鳴っている",
+      "recognized_text": "きみの声が鳴っている。",
+      "recognized_start": 2.34,
+      "recognized_end": 4.78,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8611,
+      "word_start_index": 8,
+      "word_end_index": 16,
+      "display_start": 2.34,
+      "display_end": 4.78,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 3,
+      "text": "(ずっと ここにいたよ)",
+      "recognized_text": "ずっとここにいたよ。",
+      "recognized_start": 4.86,
+      "recognized_end": 8.96,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.758,
+      "word_start_index": 16,
+      "word_end_index": 23,
+      "display_start": 4.86,
+      "display_end": 8.96,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "max_line_deviation_seconds": 0.0,
+  "max_line_deviation_ms": 0,
+  "source_lineage": {
+    "source_wav_sha256": "c9799bfa1978067477a43a6f1e4c333f3c97a52f7e5fb673fda7201c797ddcde",
+    "audio_start_seconds": 95.28,
+    "audio_start_error_seconds": 0.0,
+    "audio_correlation": 0.998233,
+    "renderer": "legacy_bytes_preserved"
+  },
+  "asr": {
+    "engine": "faster-whisper large-v3 (Systran; CPU int8; cached local weights)",
+    "language": "ja",
+    "language_probability": 1.0,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.78,
+        "text": "滅びた世界の向こうで。きみの声が 鳴っている。",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.3,
+            "word": "滅",
+            "probability": 0.9801
+          },
+          {
+            "start": 0.3,
+            "end": 0.48,
+            "word": "び",
+            "probability": 0.9983
+          },
+          {
+            "start": 0.48,
+            "end": 0.6,
+            "word": "た",
+            "probability": 0.9992
+          },
+          {
+            "start": 0.6,
+            "end": 1.08,
+            "word": "世界",
+            "probability": 0.9759
+          },
+          {
+            "start": 1.08,
+            "end": 1.48,
+            "word": "の",
+            "probability": 0.9966
+          },
+          {
+            "start": 1.48,
+            "end": 1.6,
+            "word": "向",
+            "probability": 0.9583
+          },
+          {
+            "start": 1.6,
+            "end": 2.0,
+            "word": "こう",
+            "probability": 0.9989
+          },
+          {
+            "start": 2.0,
+            "end": 2.26,
+            "word": "で。",
+            "probability": 0.9868
+          },
+          {
+            "start": 2.34,
+            "end": 2.6,
+            "word": "き",
+            "probability": 0.0386
+          },
+          {
+            "start": 2.6,
+            "end": 2.78,
+            "word": "み",
+            "probability": 0.9959
+          },
+          {
+            "start": 2.78,
+            "end": 2.98,
+            "word": "の",
+            "probability": 0.9963
+          },
+          {
+            "start": 2.98,
+            "end": 3.4,
+            "word": "声",
+            "probability": 0.994
+          },
+          {
+            "start": 3.4,
+            "end": 3.66,
+            "word": "が",
+            "probability": 0.993
+          },
+          {
+            "start": 3.72,
+            "end": 4.0,
+            "word": " 鳴",
+            "probability": 0.9958
+          },
+          {
+            "start": 4.0,
+            "end": 4.24,
+            "word": "って",
+            "probability": 0.8933
+          },
+          {
+            "start": 4.24,
+            "end": 4.78,
+            "word": "いる。",
+            "probability": 0.9819
+          }
+        ]
+      },
+      {
+        "start": 4.86,
+        "end": 8.96,
+        "text": "ずっと ここにいたよ。",
+        "words": [
+          {
+            "start": 4.86,
+            "end": 5.16,
+            "word": "ず",
+            "probability": 0.7143
+          },
+          {
+            "start": 5.16,
+            "end": 5.78,
+            "word": "っと",
+            "probability": 0.9974
+          },
+          {
+            "start": 5.78,
+            "end": 6.26,
+            "word": " こ",
+            "probability": 0.1435
+          },
+          {
+            "start": 6.26,
+            "end": 6.82,
+            "word": "こ",
+            "probability": 0.9968
+          },
+          {
+            "start": 6.82,
+            "end": 7.46,
+            "word": "に",
+            "probability": 0.9806
+          },
+          {
+            "start": 7.46,
+            "end": 8.36,
+            "word": "いた",
+            "probability": 0.4775
+          },
+          {
+            "start": 8.36,
+            "end": 8.96,
+            "word": "よ。",
+            "probability": 0.9959
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "kind": "legacy_revalidation",
+      "video_sha256": "68ffcf3c396b12a96284bc4093b238f8e3d1a0f2c87ee57f5f24cf98629d8ee6",
+      "max_line_deviation_seconds": 0.0,
+      "status": "PASS",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "滅びた世界の向こうで",
+          "recognized_text": "滅びた世界の向こうで。",
+          "recognized_start": 0.0,
+          "recognized_end": 2.26,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9868,
+          "word_start_index": 0,
+          "word_end_index": 8,
+          "display_start": 0.0,
+          "display_end": 2.26,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "きみの声が 鳴っている",
+          "recognized_text": "きみの声が鳴っている。",
+          "recognized_start": 2.34,
+          "recognized_end": 4.78,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8611,
+          "word_start_index": 8,
+          "word_end_index": 16,
+          "display_start": 2.34,
+          "display_end": 4.78,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "(ずっと ここにいたよ)",
+          "recognized_text": "ずっとここにいたよ。",
+          "recognized_start": 4.86,
+          "recognized_end": 8.96,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.758,
+          "word_start_index": 16,
+          "word_end_index": 23,
+          "display_start": 4.86,
+          "display_end": 8.96,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "queue_mutation": false,
+  "external_publish": false,
+  "fable_review": {
+    "status": "PENDING_Fable",
+    "max_deviation_ms_checked": null,
+    "verification_strip_checked": null,
+    "decided_at": null
+  },
+  "report": "121_sync_gate.json",
+  "verification_strip": "121_verification_strip.png"
+}

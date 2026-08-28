@@ -1,0 +1,391 @@
+{
+  "schema": "teaser-sync-gate.v2",
+  "verified_at": "2026-08-28T23:05:31+09:00",
+  "status": "PASS",
+  "threshold_seconds": 0.15,
+  "track_num": 118,
+  "title": "Remainder",
+  "language": "en",
+  "legacy_video": "118_Remainder.mp4",
+  "legacy_video_sha256": "34243b5f030d277048b6879572eb8b6509a89afc103a934d051ce0ee1bffae1a",
+  "video": "118_Remainder.mp4",
+  "video_sha256": "34243b5f030d277048b6879572eb8b6509a89afc103a934d051ce0ee1bffae1a",
+  "repaired": false,
+  "repair_attempts": 0,
+  "lyrics_source": "suno_clip_api_exact_prompt_20260722",
+  "lyrics_sha256": "4950fd5164a590ec4ec73344d1265869f8332214aead194d627adb68714213d1",
+  "subtitle_segments": [
+    {
+      "start": 0.0,
+      "end": 3.18,
+      "text": "With a heartbeat that won't divide evenly"
+    },
+    {
+      "start": 3.64,
+      "end": 5.24,
+      "text": "I divide the whole world"
+    },
+    {
+      "start": 5.34,
+      "end": 6.6,
+      "text": "And only the remainder"
+    },
+    {
+      "start": 7.02,
+      "end": 8.74,
+      "text": "Is my name"
+    }
+  ],
+  "line_results": [
+    {
+      "line_number": 1,
+      "text": "With a heartbeat that won't divide evenly",
+      "recognized_text": "Withaheartbeatthatwon'tdivideevenly.",
+      "recognized_start": 0.0,
+      "recognized_end": 3.18,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8688,
+      "word_start_index": 0,
+      "word_end_index": 7,
+      "display_start": 0.0,
+      "display_end": 3.18,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 2,
+      "text": "I divide the whole world",
+      "recognized_text": "Idividethewholeworld.",
+      "recognized_start": 3.64,
+      "recognized_end": 5.24,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9845,
+      "word_start_index": 7,
+      "word_end_index": 12,
+      "display_start": 3.64,
+      "display_end": 5.24,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 3,
+      "text": "And only the remainder",
+      "recognized_text": "Andonlytheremainder.",
+      "recognized_start": 5.34,
+      "recognized_end": 6.6,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9871,
+      "word_start_index": 12,
+      "word_end_index": 16,
+      "display_start": 5.34,
+      "display_end": 6.6,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 4,
+      "text": "Is my name",
+      "recognized_text": "Ismyname",
+      "recognized_start": 7.02,
+      "recognized_end": 8.74,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.7899,
+      "word_start_index": 16,
+      "word_end_index": 19,
+      "display_start": 7.02,
+      "display_end": 8.74,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "max_line_deviation_seconds": 0.0,
+  "max_line_deviation_ms": 0,
+  "source_lineage": {
+    "source_wav_sha256": "8e84d6ed90b90494f7569f53e14a1bca269086cd9ede8ffac0e302be82e1f868",
+    "audio_start_seconds": 87.74,
+    "audio_start_error_seconds": 0.0,
+    "audio_correlation": 0.997866,
+    "renderer": "legacy_bytes_preserved"
+  },
+  "asr": {
+    "engine": "faster-whisper large-v3 (Systran; CPU int8; cached local weights)",
+    "language": "en",
+    "language_probability": 1.0,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.24,
+        "text": "With a heartbeat that won't divide evenly. I divide the whole world.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.76,
+            "word": " With",
+            "probability": 0.6807
+          },
+          {
+            "start": 0.76,
+            "end": 0.88,
+            "word": " a",
+            "probability": 0.991
+          },
+          {
+            "start": 0.88,
+            "end": 1.38,
+            "word": " heartbeat",
+            "probability": 0.9813
+          },
+          {
+            "start": 1.38,
+            "end": 1.82,
+            "word": " that",
+            "probability": 0.9864
+          },
+          {
+            "start": 1.82,
+            "end": 2.18,
+            "word": " won't",
+            "probability": 0.995
+          },
+          {
+            "start": 2.18,
+            "end": 2.4,
+            "word": " divide",
+            "probability": 0.9943
+          },
+          {
+            "start": 2.4,
+            "end": 3.18,
+            "word": " evenly.",
+            "probability": 0.4532
+          },
+          {
+            "start": 3.64,
+            "end": 3.98,
+            "word": " I",
+            "probability": 0.9784
+          },
+          {
+            "start": 3.98,
+            "end": 4.22,
+            "word": " divide",
+            "probability": 0.9622
+          },
+          {
+            "start": 4.22,
+            "end": 4.54,
+            "word": " the",
+            "probability": 0.9985
+          },
+          {
+            "start": 4.54,
+            "end": 4.78,
+            "word": " whole",
+            "probability": 0.9847
+          },
+          {
+            "start": 4.78,
+            "end": 5.24,
+            "word": " world.",
+            "probability": 0.9985
+          }
+        ]
+      },
+      {
+        "start": 5.34,
+        "end": 8.74,
+        "text": "And only the remainder. Is my name",
+        "words": [
+          {
+            "start": 5.34,
+            "end": 5.46,
+            "word": " And",
+            "probability": 0.9554
+          },
+          {
+            "start": 5.46,
+            "end": 5.74,
+            "word": " only",
+            "probability": 0.9955
+          },
+          {
+            "start": 5.74,
+            "end": 5.94,
+            "word": " the",
+            "probability": 0.9988
+          },
+          {
+            "start": 5.94,
+            "end": 6.6,
+            "word": " remainder.",
+            "probability": 0.9986
+          },
+          {
+            "start": 7.02,
+            "end": 7.82,
+            "word": " Is",
+            "probability": 0.9718
+          },
+          {
+            "start": 7.82,
+            "end": 8.16,
+            "word": " my",
+            "probability": 0.4464
+          },
+          {
+            "start": 8.16,
+            "end": 8.74,
+            "word": " name",
+            "probability": 0.9514
+          }
+        ]
+      },
+      {
+        "start": 8.74,
+        "end": 13.04,
+        "text": "With a heartbeat that won't divide evenly.",
+        "words": [
+          {
+            "start": 8.74,
+            "end": 9.36,
+            "word": " With",
+            "probability": 0.0002
+          },
+          {
+            "start": 9.36,
+            "end": 10.64,
+            "word": " a",
+            "probability": 0.9967
+          },
+          {
+            "start": 10.64,
+            "end": 11.16,
+            "word": " heartbeat",
+            "probability": 0.9907
+          },
+          {
+            "start": 11.16,
+            "end": 11.6,
+            "word": " that",
+            "probability": 0.9759
+          },
+          {
+            "start": 11.6,
+            "end": 11.94,
+            "word": " won't",
+            "probability": 0.9964
+          },
+          {
+            "start": 11.94,
+            "end": 12.18,
+            "word": " divide",
+            "probability": 0.9914
+          },
+          {
+            "start": 12.18,
+            "end": 13.04,
+            "word": " evenly.",
+            "probability": 0.8073
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "kind": "legacy_revalidation",
+      "video_sha256": "34243b5f030d277048b6879572eb8b6509a89afc103a934d051ce0ee1bffae1a",
+      "max_line_deviation_seconds": 0.0,
+      "status": "PASS",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "With a heartbeat that won't divide evenly",
+          "recognized_text": "Withaheartbeatthatwon'tdivideevenly.",
+          "recognized_start": 0.0,
+          "recognized_end": 3.18,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8688,
+          "word_start_index": 0,
+          "word_end_index": 7,
+          "display_start": 0.0,
+          "display_end": 3.18,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "I divide the whole world",
+          "recognized_text": "Idividethewholeworld.",
+          "recognized_start": 3.64,
+          "recognized_end": 5.24,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9845,
+          "word_start_index": 7,
+          "word_end_index": 12,
+          "display_start": 3.64,
+          "display_end": 5.24,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "And only the remainder",
+          "recognized_text": "Andonlytheremainder.",
+          "recognized_start": 5.34,
+          "recognized_end": 6.6,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9871,
+          "word_start_index": 12,
+          "word_end_index": 16,
+          "display_start": 5.34,
+          "display_end": 6.6,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 4,
+          "text": "Is my name",
+          "recognized_text": "Ismyname",
+          "recognized_start": 7.02,
+          "recognized_end": 8.74,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.7899,
+          "word_start_index": 16,
+          "word_end_index": 19,
+          "display_start": 7.02,
+          "display_end": 8.74,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "queue_mutation": false,
+  "external_publish": false,
+  "fable_review": {
+    "status": "PENDING_Fable",
+    "max_deviation_ms_checked": null,
+    "verification_strip_checked": null,
+    "decided_at": null
+  },
+  "report": "118_sync_gate.json",
+  "verification_strip": "118_verification_strip.png"
+}

@@ -1,0 +1,413 @@
+{
+  "schema": "teaser-sync-gate.v2",
+  "verified_at": "2026-08-28T23:00:39+09:00",
+  "status": "PASS",
+  "threshold_seconds": 0.15,
+  "track_num": 124,
+  "title": "Spirit Dragonfly",
+  "language": "en",
+  "legacy_video": "124_Spirit_Dragonfly.mp4",
+  "legacy_video_sha256": "16bb8c97465c95dc57fd9d3a8bf3ac08f1036fc1afe016ede7bca3f4625896e7",
+  "video": "124_Spirit_Dragonfly.mp4",
+  "video_sha256": "18384bcbeb89f32d58c823f3ed6be8ffda2a4e62413d0d3d962ba7d15a0215fb",
+  "repaired": true,
+  "repair_attempts": 1,
+  "lyrics_source": "suno_clip_api_exact_prompt_20260722",
+  "lyrics_sha256": "8103ae8c1251fd61339a0114481de060418ce92daaee94928558c91fa1531175",
+  "subtitle_segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Are no longer clean"
+    },
+    {
+      "start": 2.2,
+      "end": 6.04,
+      "text": "By the time the first star lights"
+    },
+    {
+      "start": 6.62,
+      "end": 10.26,
+      "text": "You die again today"
+    },
+    {
+      "start": 11.76,
+      "end": 14.44,
+      "text": "Only by forgetting you"
+    }
+  ],
+  "line_results": [
+    {
+      "line_number": 1,
+      "text": "Are no longer clean",
+      "recognized_text": "arenolongerclean.",
+      "recognized_start": 0.0,
+      "recognized_end": 2.0,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.5191,
+      "word_start_index": 0,
+      "word_end_index": 4,
+      "display_start": 0.0,
+      "display_end": 2.0,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 2,
+      "text": "By the time the first star lights",
+      "recognized_text": "Bythetimethefirststarlights.",
+      "recognized_start": 2.2,
+      "recognized_end": 6.04,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9711,
+      "word_start_index": 4,
+      "word_end_index": 11,
+      "display_start": 2.2,
+      "display_end": 6.04,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 3,
+      "text": "You die again today",
+      "recognized_text": "Youdieagaintoday.",
+      "recognized_start": 6.62,
+      "recognized_end": 10.26,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.7723,
+      "word_start_index": 11,
+      "word_end_index": 15,
+      "display_start": 6.62,
+      "display_end": 10.26,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 4,
+      "text": "Only by forgetting you",
+      "recognized_text": "Onlybyforgettingyou",
+      "recognized_start": 11.76,
+      "recognized_end": 14.44,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9705,
+      "word_start_index": 15,
+      "word_end_index": 19,
+      "display_start": 11.76,
+      "display_end": 14.44,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "max_line_deviation_seconds": 0.0,
+  "max_line_deviation_ms": 0,
+  "source_lineage": {
+    "source_wav_sha256": "2017831edf9f7772169f72cfac45bf76078c16931086bb4ca48dc57014f42e5a",
+    "audio_start_seconds": 58.52,
+    "audio_start_error_seconds": 0.0,
+    "audio_correlation": 0.998214,
+    "background_name": "hf_20260809_235954_9412a5d2-cf4b-42e1-897a-e2a4129a0cfd.png",
+    "renderer": "teaser_gen_v2.render_ffmpeg_lyrics_fallback"
+  },
+  "asr": {
+    "engine": "faster-whisper large-v3 (Systran; CPU int8; cached local weights)",
+    "language": "en",
+    "language_probability": 1.0,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 14.44,
+        "text": "are no longer clean. By the time the first star lights. You die again today. Only by forgetting you",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.4,
+            "word": " are",
+            "probability": 0.0096
+          },
+          {
+            "start": 0.4,
+            "end": 0.74,
+            "word": " no",
+            "probability": 0.9896
+          },
+          {
+            "start": 0.74,
+            "end": 1.44,
+            "word": " longer",
+            "probability": 0.998
+          },
+          {
+            "start": 1.44,
+            "end": 2.0,
+            "word": " clean.",
+            "probability": 0.0792
+          },
+          {
+            "start": 2.2,
+            "end": 2.54,
+            "word": " By",
+            "probability": 0.9427
+          },
+          {
+            "start": 2.54,
+            "end": 2.84,
+            "word": " the",
+            "probability": 0.997
+          },
+          {
+            "start": 2.84,
+            "end": 3.52,
+            "word": " time",
+            "probability": 0.9979
+          },
+          {
+            "start": 3.52,
+            "end": 3.76,
+            "word": " the",
+            "probability": 0.9264
+          },
+          {
+            "start": 3.76,
+            "end": 4.3,
+            "word": " first",
+            "probability": 0.9937
+          },
+          {
+            "start": 4.3,
+            "end": 4.94,
+            "word": " star",
+            "probability": 0.9891
+          },
+          {
+            "start": 4.94,
+            "end": 6.04,
+            "word": " lights.",
+            "probability": 0.9509
+          },
+          {
+            "start": 6.62,
+            "end": 6.82,
+            "word": " You",
+            "probability": 0.9578
+          },
+          {
+            "start": 6.82,
+            "end": 7.3,
+            "word": " die",
+            "probability": 0.6609
+          },
+          {
+            "start": 7.3,
+            "end": 8.14,
+            "word": " again",
+            "probability": 0.9875
+          },
+          {
+            "start": 8.14,
+            "end": 10.26,
+            "word": " today.",
+            "probability": 0.4831
+          },
+          {
+            "start": 11.76,
+            "end": 12.86,
+            "word": " Only",
+            "probability": 0.9324
+          },
+          {
+            "start": 12.86,
+            "end": 13.24,
+            "word": " by",
+            "probability": 0.9833
+          },
+          {
+            "start": 13.24,
+            "end": 13.82,
+            "word": " forgetting",
+            "probability": 0.9809
+          },
+          {
+            "start": 13.82,
+            "end": 14.44,
+            "word": " you",
+            "probability": 0.9854
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "kind": "legacy_revalidation",
+      "video_sha256": "16bb8c97465c95dc57fd9d3a8bf3ac08f1036fc1afe016ede7bca3f4625896e7",
+      "max_line_deviation_seconds": 0.2,
+      "status": "FAIL",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "Are no longer clean",
+          "recognized_text": "arenolongerclean.",
+          "recognized_start": 0.0,
+          "recognized_end": 2.0,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.5191,
+          "word_start_index": 0,
+          "word_end_index": 4,
+          "display_start": 0.0,
+          "display_end": 2.02,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.02,
+          "max_deviation_seconds": 0.02,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "By the time the first star lights",
+          "recognized_text": "Bythetimethefirststarlights.",
+          "recognized_start": 2.2,
+          "recognized_end": 6.04,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9711,
+          "word_start_index": 4,
+          "word_end_index": 11,
+          "display_start": 2.02,
+          "display_end": 6.06,
+          "start_deviation_seconds": 0.18,
+          "end_deviation_seconds": 0.02,
+          "max_deviation_seconds": 0.18,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 3,
+          "text": "You die again today",
+          "recognized_text": "Youdieagaintoday.",
+          "recognized_start": 6.62,
+          "recognized_end": 10.26,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.7723,
+          "word_start_index": 11,
+          "word_end_index": 15,
+          "display_start": 6.42,
+          "display_end": 10.28,
+          "start_deviation_seconds": 0.2,
+          "end_deviation_seconds": 0.02,
+          "max_deviation_seconds": 0.2,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 4,
+          "text": "Only by forgetting you",
+          "recognized_text": "Onlybyforgettingyou",
+          "recognized_start": 11.76,
+          "recognized_end": 14.44,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9705,
+          "word_start_index": 15,
+          "word_end_index": 19,
+          "display_start": 11.96,
+          "display_end": 14.4,
+          "start_deviation_seconds": 0.2,
+          "end_deviation_seconds": 0.04,
+          "max_deviation_seconds": 0.2,
+          "status": "FAIL"
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "kind": "automatic_realign_revalidation",
+      "video_sha256": "18384bcbeb89f32d58c823f3ed6be8ffda2a4e62413d0d3d962ba7d15a0215fb",
+      "max_line_deviation_seconds": 0.0,
+      "status": "PASS",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "Are no longer clean",
+          "recognized_text": "arenolongerclean.",
+          "recognized_start": 0.0,
+          "recognized_end": 2.0,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.5191,
+          "word_start_index": 0,
+          "word_end_index": 4,
+          "display_start": 0.0,
+          "display_end": 2.0,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "By the time the first star lights",
+          "recognized_text": "Bythetimethefirststarlights.",
+          "recognized_start": 2.2,
+          "recognized_end": 6.04,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9711,
+          "word_start_index": 4,
+          "word_end_index": 11,
+          "display_start": 2.2,
+          "display_end": 6.04,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "You die again today",
+          "recognized_text": "Youdieagaintoday.",
+          "recognized_start": 6.62,
+          "recognized_end": 10.26,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.7723,
+          "word_start_index": 11,
+          "word_end_index": 15,
+          "display_start": 6.62,
+          "display_end": 10.26,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 4,
+          "text": "Only by forgetting you",
+          "recognized_text": "Onlybyforgettingyou",
+          "recognized_start": 11.76,
+          "recognized_end": 14.44,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9705,
+          "word_start_index": 15,
+          "word_end_index": 19,
+          "display_start": 11.76,
+          "display_end": 14.44,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "queue_mutation": false,
+  "external_publish": false,
+  "fable_review": {
+    "status": "PENDING_Fable",
+    "max_deviation_ms_checked": null,
+    "verification_strip_checked": null,
+    "decided_at": null
+  },
+  "report": "124_sync_gate.json",
+  "verification_strip": "124_verification_strip.png"
+}

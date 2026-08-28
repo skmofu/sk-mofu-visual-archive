@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="googlebot" content="noindex,nofollow,noarchive">
+  <title>Teaser review ledger / S.K_mofu</title>
+  <meta name="description" content="Unposted teaser synchronization review ledger.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="brand"><span>S.K_mofu</span><span>K.S_mofu</span></div><span class="private-mark">NOINDEX / UNPOSTED REVIEW</span></header>
+  <main>
+    <section class="hero">
+      <p class="section-marker">Teaser review / synchronization ledger</p>
+      <h1>Words must land<br>where the voice does.</h1>
+      <p class="lead">完成MP4をWhisper large-v3で再認識し、正規DB歌詞の各行に対して表示開始・終了の絶対偏差を検証。全行150ms以内だけをPASSとする公開レビュー台帳です。</p>
+      <div class="summary-grid">
+        <div><b>13</b><span>unposted set</span></div><div><b>12</b><span>hard-gate PASS</span></div><div><b>0</b><span>FAIL</span></div><div><b>1</b><span>excluded</span></div><div><b>0</b><span>moved to posted</span></div><div><b>02:00 JST</b><span>next daemon slot</span></div>
+      </div>
+      <p class="snapshot">Snapshot 2026-08-28T23:07:46+09:00 · Phase 0 total is the live DB result, not the stale 126−94 estimate.</p>
+      <p class="phase-zero">Phase 0: 素材あり・投稿待ち 11 / 要生成 1 / 除外 1。22:00 <code>no_target</code> は全候補がskiplistに入っていたため。Fable承認後、Track 114だけが次候補へ復帰。要生成だったTrack 123も本runで生成・検証済み。</p>
+    </section>
+    <section class="method">
+      <div><p class="section-marker">Hard gate</p><h2>Completed video → ASR → canonical-line boundaries</h2></div>
+      <p>旧7本の初回再検証は6 PASS / 1 FAIL。Track 118は同じ正規WAV内の明瞭な反復歌唱窓へ切替えて再生成し、完成MP4再ASRで回復。現在は旧7本7/7、全有効候補12/12がPASSです。Codex QAとFable承認は混同せず別欄に記録します。</p>
+    </section>
+    <section class="ledger" aria-label="Unposted teaser review rows"><article class="review-row" id="track-61">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 61</p><h2>心拍はまだイントロのまま</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release —</span><span>Hold: <code>backfill_skiplist.json#titles/心拍はまだイントロのまま</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/061.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/061.png"><img class="sync-strip" loading="lazy" src="strips/061.png" alt="Track 61 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/061.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA 06b80712e35b…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-114">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 114</p><h2>Breathless City</h2></div>
+    <div class="state-badge pass">Fable承認 / キュー投入済</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-07-08</span><span>Hold: <code>backfill_skiplist.json#titles/Breathless City</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/114.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/114.png"><img class="sync-strip" loading="lazy" src="strips/114.png" alt="Track 114 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/114.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA 76e8b58d7810…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>APPROVE</strong><p>同期偏差・検証帯・sidecar・MP4ハッシュ・正規歌詞系譜を独立確認 · 2026-08-28 22:36–22:43 JST (verdict finalized 2026-08-28 22:43 JST)</p></section>
+  </div>
+</article><article class="review-row" id="track-115">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 115</p><h2>巻き戻る未来</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-07-15</span><span>Hold: <code>backfill_skiplist.json#titles/巻き戻る未来</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/115.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/115.png"><img class="sync-strip" loading="lazy" src="strips/115.png" alt="Track 115 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/115.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA dfd62b8ab226…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-116">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 116</p><h2>Rewinding Future</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-07-29</span><span>Hold: <code>backfill_skiplist.json#titles/Rewinding Future</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/116.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/116.png"><img class="sync-strip" loading="lazy" src="strips/116.png" alt="Track 116 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/116.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA f56dbf0c53f7…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-117">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 117</p><h2>余り</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-08-05</span><span>Hold: <code>backfill_skiplist.json#titles/余り</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/117.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/117.png"><img class="sync-strip" loading="lazy" src="strips/117.png" alt="Track 117 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/117.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA e089545a858e…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-118">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 118</p><h2>Remainder</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-08-12</span><span>Hold: <code>backfill_skiplist.json#titles/Remainder</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/118.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/118.png"><img class="sync-strip" loading="lazy" src="strips/118.png" alt="Track 118 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/118.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA 34243b5f030d…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-119">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 119</p><h2>五等分の雨</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-07-29</span><span>Hold: <code>backfill_skiplist.json#titles/五等分の雨</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/119.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/119.png"><img class="sync-strip" loading="lazy" src="strips/119.png" alt="Track 119 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/119.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA 1eb4578e5b4b…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-120">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 120</p><h2>Rain in Fifths</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-07-29</span><span>Hold: <code>backfill_skiplist.json#titles/Rain in Fifths</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/120.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/120.png"><img class="sync-strip" loading="lazy" src="strips/120.png" alt="Track 120 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/120.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA 7e8b117a2dd7…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-121">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 121</p><h2>光の輪郭</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-08-05</span><span>Hold: <code>backfill_skiplist.json#titles/光の輪郭</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/121.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/121.png"><img class="sync-strip" loading="lazy" src="strips/121.png" alt="Track 121 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/121.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 3行 · max 0ms · SHA 68ffcf3c396b…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-122">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 122</p><h2>Outline of Light</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-08-05</span><span>Hold: <code>backfill_skiplist.json#titles/Outline of Light</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/122.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/122.png"><img class="sync-strip" loading="lazy" src="strips/122.png" alt="Track 122 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/122.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA 4e282def75e5…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-123">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 123</p><h2>精霊トンボ</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>要生成（本runで生成済）</span><span>Release 2026-08-12</span><span>Hold: <code>backfill_skiplist.json#titles/精霊トンボ</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/123.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/123.png"><img class="sync-strip" loading="lazy" src="strips/123.png" alt="Track 123 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/123.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA 392e5abcfcb0…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-124">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 124</p><h2>Spirit Dragonfly</h2></div>
+    <div class="state-badge pass">同期PASS / 投稿待ち</div>
+  </header>
+  <div class="row-meta"><span>素材あり・投稿待ち</span><span>Release 2026-08-12</span><span>Hold: <code>backfill_skiplist.json#titles/Spirit Dragonfly</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><video controls playsinline preload="metadata" src="media/124.mp4"></video></div>
+    <div class="strip-cell"><a href="strips/124.png"><img class="sync-strip" loading="lazy" src="strips/124.png" alt="Track 124 synchronization verification strip"></a><ul class="line-gates"><li><span>L1</span><b>PASS</b><code>0ms</code></li><li><span>L2</span><b>PASS</b><code>0ms</code></li><li><span>L3</span><b>PASS</b><code>0ms</code></li><li><span>L4</span><b>PASS</b><code>0ms</code></li></ul><a class="evidence-link" href="data/124.json">sanitized JSON evidence</a></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>PASS</strong><p>large-v3 completed-MP4 re-ASR · 4行 · max 0ms · SHA 18384bcbeb89…</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article><article class="review-row" id="track-99999">
+  <header class="row-head">
+    <div><p class="track-no">TRACK 99999</p><h2>SlowFrame</h2></div>
+    <div class="state-badge blocked">除外</div>
+  </header>
+  <div class="row-meta"><span>除外</span><span>Release —</span><span>Hold: <code>backfill_skiplist.json#titles/SlowFrame</code></span></div>
+  <div class="evidence-grid">
+    <div class="video-cell"><div class="media-placeholder">verified media unavailable</div></div>
+    <div class="strip-cell"><div class="strip-placeholder">verification strip pending</div><ul class="line-gates"></ul><span class="muted">JSON evidence pending</span></div>
+    <section class="audit-cell codex-audit"><p class="audit-label">Codex self-QA</p><strong>BLOCKED</strong><p>有効なtrack番号または正規歌詞がなく、安全に照合できない</p></section>
+    <section class="audit-cell fable-audit"><p class="audit-label">Fable 検収記録</p><strong>PENDING</strong><p>Fable検収待ち</p></section>
+  </div>
+</article></section>
+  </main>
+  <footer><span>Generated from local canonical DB + signed sync sidecars</span><span>No navigation link / noindex</span></footer>
+</body>
+</html>

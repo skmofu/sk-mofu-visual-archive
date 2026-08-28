@@ -1,0 +1,456 @@
+{
+  "schema": "teaser-sync-gate.v2",
+  "verified_at": "2026-08-28T22:33:33+09:00",
+  "status": "PASS",
+  "threshold_seconds": 0.15,
+  "track_num": 119,
+  "title": "五等分の雨",
+  "language": "ja",
+  "legacy_video": "119_五等分の雨.mp4",
+  "legacy_video_sha256": "44cd06c7f44b5ea61721fa1ad4a06d22a8ef364571cf620a445b31eda6273172",
+  "video": "119_五等分の雨.mp4",
+  "video_sha256": "1eb4578e5b4b65c46fd32f9f2e22389ba9ee71fb60d81865f172e1366e33a909",
+  "repaired": true,
+  "repair_attempts": 1,
+  "lyrics_source": "suno_clip_api_exact_prompt_20260722",
+  "lyrics_sha256": "aa30d3941ef76ada93d7db0b379f9d6667acfd44ff38b66c90b5e5dc46dc2b7d",
+  "subtitle_segments": [
+    {
+      "start": 1.06,
+      "end": 2.16,
+      "text": "拍子の隙間で"
+    },
+    {
+      "start": 2.18,
+      "end": 5.24,
+      "text": "病んだ空が笑う"
+    },
+    {
+      "start": 5.52,
+      "end": 8.4,
+      "text": "五等分にされた"
+    },
+    {
+      "start": 8.66,
+      "end": 11.68,
+      "text": "感情の余り"
+    }
+  ],
+  "line_results": [
+    {
+      "line_number": 1,
+      "text": "拍子の隙間で",
+      "recognized_text": "の隙間で。",
+      "recognized_start": 1.06,
+      "recognized_end": 2.16,
+      "text_match_ratio": 0.8,
+      "mean_word_probability": 0.9942,
+      "word_start_index": 2,
+      "word_end_index": 6,
+      "display_start": 1.06,
+      "display_end": 2.16,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 2,
+      "text": "病んだ空が笑う",
+      "recognized_text": "病んだ空が笑う。",
+      "recognized_start": 2.18,
+      "recognized_end": 5.24,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8718,
+      "word_start_index": 6,
+      "word_end_index": 12,
+      "display_start": 2.18,
+      "display_end": 5.24,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 3,
+      "text": "五等分にされた",
+      "recognized_text": "五等分にされた。",
+      "recognized_start": 5.52,
+      "recognized_end": 8.4,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8287,
+      "word_start_index": 12,
+      "word_end_index": 18,
+      "display_start": 5.52,
+      "display_end": 8.4,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 4,
+      "text": "感情の余り",
+      "recognized_text": "感情の余り",
+      "recognized_start": 8.66,
+      "recognized_end": 11.68,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9079,
+      "word_start_index": 18,
+      "word_end_index": 23,
+      "display_start": 8.66,
+      "display_end": 11.68,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "max_line_deviation_seconds": 0.0,
+  "max_line_deviation_ms": 0,
+  "source_lineage": {
+    "source_wav_sha256": "fcd98f2bceb5e336c6141ab613adae9336aae7cf2eaa9f2d5a7cf25981c3a63a",
+    "audio_start_seconds": 30.0,
+    "audio_start_error_seconds": 0.0,
+    "audio_correlation": 0.998253,
+    "background_name": "hf_20260727_015010_dab047df-27ee-4a27-8830-ee87998ef240.png",
+    "renderer": "teaser_gen_v2.render_ffmpeg_lyrics_fallback"
+  },
+  "asr": {
+    "engine": "faster-whisper large-v3 (Systran; CPU int8; cached local weights)",
+    "language": "ja",
+    "language_probability": 1.0,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 11.68,
+        "text": "表紙の隙間で。病んだ空が笑う。五等分にされた。感情の余り",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.66,
+            "word": "表",
+            "probability": 0.1696
+          },
+          {
+            "start": 0.66,
+            "end": 1.06,
+            "word": "紙",
+            "probability": 0.9999
+          },
+          {
+            "start": 1.06,
+            "end": 1.22,
+            "word": "の",
+            "probability": 0.9963
+          },
+          {
+            "start": 1.22,
+            "end": 1.4,
+            "word": "隙",
+            "probability": 0.9905
+          },
+          {
+            "start": 1.4,
+            "end": 1.84,
+            "word": "間",
+            "probability": 0.9984
+          },
+          {
+            "start": 1.84,
+            "end": 2.16,
+            "word": "で。",
+            "probability": 0.9915
+          },
+          {
+            "start": 2.18,
+            "end": 2.5,
+            "word": "病",
+            "probability": 0.4102
+          },
+          {
+            "start": 2.5,
+            "end": 2.92,
+            "word": "んだ",
+            "probability": 0.9635
+          },
+          {
+            "start": 2.92,
+            "end": 3.38,
+            "word": "空",
+            "probability": 0.9599
+          },
+          {
+            "start": 3.38,
+            "end": 3.88,
+            "word": "が",
+            "probability": 0.9902
+          },
+          {
+            "start": 3.88,
+            "end": 4.32,
+            "word": "笑",
+            "probability": 0.9119
+          },
+          {
+            "start": 4.32,
+            "end": 5.24,
+            "word": "う。",
+            "probability": 0.995
+          },
+          {
+            "start": 5.52,
+            "end": 6.38,
+            "word": "五",
+            "probability": 0.0296
+          },
+          {
+            "start": 6.38,
+            "end": 6.74,
+            "word": "等",
+            "probability": 0.9802
+          },
+          {
+            "start": 6.74,
+            "end": 7.14,
+            "word": "分",
+            "probability": 0.9991
+          },
+          {
+            "start": 7.14,
+            "end": 7.6,
+            "word": "に",
+            "probability": 0.9907
+          },
+          {
+            "start": 7.6,
+            "end": 7.88,
+            "word": "さ",
+            "probability": 0.9763
+          },
+          {
+            "start": 7.88,
+            "end": 8.4,
+            "word": "れた。",
+            "probability": 0.9962
+          },
+          {
+            "start": 8.66,
+            "end": 9.5,
+            "word": "感",
+            "probability": 0.9526
+          },
+          {
+            "start": 9.5,
+            "end": 10.26,
+            "word": "情",
+            "probability": 0.9983
+          },
+          {
+            "start": 10.26,
+            "end": 10.54,
+            "word": "の",
+            "probability": 0.9974
+          },
+          {
+            "start": 10.54,
+            "end": 11.26,
+            "word": "余",
+            "probability": 0.5986
+          },
+          {
+            "start": 11.26,
+            "end": 11.68,
+            "word": "り",
+            "probability": 0.9928
+          }
+        ]
+      },
+      {
+        "start": 14.0,
+        "end": 14.84,
+        "text": "歌え!",
+        "words": [
+          {
+            "start": 13.87,
+            "end": 14.3,
+            "word": "歌",
+            "probability": 0.0147
+          },
+          {
+            "start": 14.3,
+            "end": 14.84,
+            "word": "え!",
+            "probability": 0.2715
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "kind": "legacy_revalidation",
+      "video_sha256": "44cd06c7f44b5ea61721fa1ad4a06d22a8ef364571cf620a445b31eda6273172",
+      "max_line_deviation_seconds": 1.06,
+      "status": "FAIL",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "拍子の隙間で",
+          "recognized_text": "の隙間で。",
+          "recognized_start": 1.06,
+          "recognized_end": 2.16,
+          "text_match_ratio": 0.8,
+          "mean_word_probability": 0.9942,
+          "word_start_index": 2,
+          "word_end_index": 6,
+          "display_start": 0.0,
+          "display_end": 2.16,
+          "start_deviation_seconds": 1.06,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 1.06,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 2,
+          "text": "病んだ空が笑う",
+          "recognized_text": "病んだ空が笑う。",
+          "recognized_start": 2.18,
+          "recognized_end": 5.24,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8718,
+          "word_start_index": 6,
+          "word_end_index": 12,
+          "display_start": 2.16,
+          "display_end": 5.34,
+          "start_deviation_seconds": 0.02,
+          "end_deviation_seconds": 0.1,
+          "max_deviation_seconds": 0.1,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "五等分にされた",
+          "recognized_text": "五等分にされた。",
+          "recognized_start": 5.52,
+          "recognized_end": 8.4,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8287,
+          "word_start_index": 12,
+          "word_end_index": 18,
+          "display_start": 6.0,
+          "display_end": 8.36,
+          "start_deviation_seconds": 0.48,
+          "end_deviation_seconds": 0.04,
+          "max_deviation_seconds": 0.48,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 4,
+          "text": "感情の余り",
+          "recognized_text": "感情の余り",
+          "recognized_start": 8.66,
+          "recognized_end": 11.68,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9079,
+          "word_start_index": 18,
+          "word_end_index": 23,
+          "display_start": 8.36,
+          "display_end": 11.48,
+          "start_deviation_seconds": 0.3,
+          "end_deviation_seconds": 0.2,
+          "max_deviation_seconds": 0.3,
+          "status": "FAIL"
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "kind": "automatic_realign_revalidation",
+      "video_sha256": "1eb4578e5b4b65c46fd32f9f2e22389ba9ee71fb60d81865f172e1366e33a909",
+      "max_line_deviation_seconds": 0.0,
+      "status": "PASS",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "拍子の隙間で",
+          "recognized_text": "の隙間で。",
+          "recognized_start": 1.06,
+          "recognized_end": 2.16,
+          "text_match_ratio": 0.8,
+          "mean_word_probability": 0.9942,
+          "word_start_index": 2,
+          "word_end_index": 6,
+          "display_start": 1.06,
+          "display_end": 2.16,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "病んだ空が笑う",
+          "recognized_text": "病んだ空が笑う。",
+          "recognized_start": 2.18,
+          "recognized_end": 5.24,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8718,
+          "word_start_index": 6,
+          "word_end_index": 12,
+          "display_start": 2.18,
+          "display_end": 5.24,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "五等分にされた",
+          "recognized_text": "五等分にされた。",
+          "recognized_start": 5.52,
+          "recognized_end": 8.4,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8287,
+          "word_start_index": 12,
+          "word_end_index": 18,
+          "display_start": 5.52,
+          "display_end": 8.4,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 4,
+          "text": "感情の余り",
+          "recognized_text": "感情の余り",
+          "recognized_start": 8.66,
+          "recognized_end": 11.68,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9079,
+          "word_start_index": 18,
+          "word_end_index": 23,
+          "display_start": 8.66,
+          "display_end": 11.68,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "queue_mutation": false,
+  "external_publish": false,
+  "fable_review": {
+    "status": "PENDING_Fable",
+    "max_deviation_ms_checked": null,
+    "verification_strip_checked": null,
+    "decided_at": null
+  },
+  "report": "119_sync_gate.json",
+  "verification_strip": "119_verification_strip.png"
+}

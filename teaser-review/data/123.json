@@ -1,0 +1,474 @@
+{
+  "schema": "teaser-sync-gate.v2",
+  "verified_at": "2026-08-28T23:00:18+09:00",
+  "status": "PASS",
+  "threshold_seconds": 0.15,
+  "track_num": 123,
+  "title": "精霊トンボ",
+  "language": "ja",
+  "legacy_video": "123_精霊トンボ.mp4",
+  "legacy_video_sha256": "c70a48b2e1ee1c0a839a8e83b299780bbcc96bf404e061932581acfcd0426ae1",
+  "video": "123_精霊トンボ.mp4",
+  "video_sha256": "392e5abcfcb002e1c463b22e582664641a8dc17c93318285545e53c7b857010c",
+  "repaired": true,
+  "repair_attempts": 1,
+  "lyrics_source": "suno_clip_api_exact_prompt_20260722",
+  "lyrics_sha256": "f3ba5c993ed71d8671469636e35ce8ea6521d860606f3e213a3ae33c48c8ec8a",
+  "subtitle_segments": [
+    {
+      "start": 0.0,
+      "end": 2.56,
+      "text": "引き留める指も 汚れてる"
+    },
+    {
+      "start": 2.7,
+      "end": 7.52,
+      "text": "一番星が 灯る頃"
+    },
+    {
+      "start": 7.64,
+      "end": 13.12,
+      "text": "きみは今日も 死んでしまう"
+    },
+    {
+      "start": 13.26,
+      "end": 14.74,
+      "text": "忘れてゆくことでしか"
+    }
+  ],
+  "line_results": [
+    {
+      "line_number": 1,
+      "text": "引き留める指も 汚れてる",
+      "recognized_text": "引き留める指も汚れてる。",
+      "recognized_start": 0.0,
+      "recognized_end": 2.56,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8144,
+      "word_start_index": 0,
+      "word_end_index": 10,
+      "display_start": 0.0,
+      "display_end": 2.56,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 2,
+      "text": "一番星が 灯る頃",
+      "recognized_text": "一番星が灯る頃。",
+      "recognized_start": 2.7,
+      "recognized_end": 7.52,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.9446,
+      "word_start_index": 10,
+      "word_end_index": 17,
+      "display_start": 2.7,
+      "display_end": 7.52,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 3,
+      "text": "きみは今日も 死んでしまう",
+      "recognized_text": "きみは今日も死んでしまう。",
+      "recognized_start": 7.64,
+      "recognized_end": 13.12,
+      "text_match_ratio": 1.0,
+      "mean_word_probability": 0.8179,
+      "word_start_index": 17,
+      "word_end_index": 26,
+      "display_start": 7.64,
+      "display_end": 13.12,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    },
+    {
+      "line_number": 4,
+      "text": "忘れてゆくことでしか",
+      "recognized_text": "忘れて",
+      "recognized_start": 13.26,
+      "recognized_end": 14.74,
+      "text_match_ratio": 0.4615,
+      "mean_word_probability": 0.9509,
+      "word_start_index": 26,
+      "word_end_index": 28,
+      "display_start": 13.26,
+      "display_end": 14.74,
+      "start_deviation_seconds": 0.0,
+      "end_deviation_seconds": 0.0,
+      "max_deviation_seconds": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "max_line_deviation_seconds": 0.0,
+  "max_line_deviation_ms": 0,
+  "source_lineage": {
+    "source_wav_sha256": "59840ca2a7461764e8a3f079d5e095c027635312cadb2af3fd9d59a95a5f1c4c",
+    "audio_start_seconds": 68.86,
+    "audio_start_error_seconds": 0.0,
+    "audio_correlation": 0.997556,
+    "background_name": "hf_20260809_235637_1ab68fcd-a9fb-4ac4-9c8e-9478afbd8a62.png",
+    "renderer": "teaser_gen_v2.render_ffmpeg_lyrics_fallback"
+  },
+  "asr": {
+    "engine": "faster-whisper large-v3 (Systran; CPU int8; cached local weights)",
+    "language": "ja",
+    "language_probability": 1.0,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 13.12,
+        "text": "引き留める指も 汚れてる。一番星が 灯る頃。きみは今日も 死んでしまう。",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.26,
+            "word": "引",
+            "probability": 0.0959
+          },
+          {
+            "start": 0.26,
+            "end": 0.36,
+            "word": "き",
+            "probability": 0.9996
+          },
+          {
+            "start": 0.36,
+            "end": 0.54,
+            "word": "留",
+            "probability": 0.1621
+          },
+          {
+            "start": 0.54,
+            "end": 0.76,
+            "word": "め",
+            "probability": 0.9982
+          },
+          {
+            "start": 0.76,
+            "end": 0.82,
+            "word": "る",
+            "probability": 0.9962
+          },
+          {
+            "start": 0.82,
+            "end": 1.04,
+            "word": "指",
+            "probability": 0.9834
+          },
+          {
+            "start": 1.04,
+            "end": 1.3,
+            "word": "も",
+            "probability": 0.9851
+          },
+          {
+            "start": 1.36,
+            "end": 1.64,
+            "word": " 汚",
+            "probability": 0.9988
+          },
+          {
+            "start": 1.64,
+            "end": 1.98,
+            "word": "れて",
+            "probability": 0.9863
+          },
+          {
+            "start": 1.98,
+            "end": 2.56,
+            "word": "る。",
+            "probability": 0.9383
+          },
+          {
+            "start": 2.7,
+            "end": 3.42,
+            "word": "一",
+            "probability": 0.7997
+          },
+          {
+            "start": 3.42,
+            "end": 4.0,
+            "word": "番",
+            "probability": 0.98
+          },
+          {
+            "start": 4.0,
+            "end": 4.7,
+            "word": "星",
+            "probability": 0.9143
+          },
+          {
+            "start": 4.7,
+            "end": 5.3,
+            "word": "が",
+            "probability": 0.9907
+          },
+          {
+            "start": 5.38,
+            "end": 6.0,
+            "word": " 灯",
+            "probability": 0.9912
+          },
+          {
+            "start": 6.0,
+            "end": 6.54,
+            "word": "る",
+            "probability": 0.9846
+          },
+          {
+            "start": 6.54,
+            "end": 7.52,
+            "word": "頃。",
+            "probability": 0.9517
+          },
+          {
+            "start": 7.64,
+            "end": 8.22,
+            "word": "き",
+            "probability": 0.0491
+          },
+          {
+            "start": 8.22,
+            "end": 8.58,
+            "word": "み",
+            "probability": 0.9927
+          },
+          {
+            "start": 8.58,
+            "end": 8.84,
+            "word": "は",
+            "probability": 0.9946
+          },
+          {
+            "start": 8.84,
+            "end": 9.26,
+            "word": "今日",
+            "probability": 0.6278
+          },
+          {
+            "start": 9.26,
+            "end": 10.0,
+            "word": "も",
+            "probability": 0.7256
+          },
+          {
+            "start": 10.0,
+            "end": 10.36,
+            "word": " 死",
+            "probability": 0.9939
+          },
+          {
+            "start": 10.36,
+            "end": 11.12,
+            "word": "んで",
+            "probability": 0.9902
+          },
+          {
+            "start": 11.12,
+            "end": 11.72,
+            "word": "しま",
+            "probability": 0.9915
+          },
+          {
+            "start": 11.72,
+            "end": 13.12,
+            "word": "う。",
+            "probability": 0.9959
+          }
+        ]
+      },
+      {
+        "start": 13.26,
+        "end": 14.74,
+        "text": "忘れて",
+        "words": [
+          {
+            "start": 13.26,
+            "end": 13.96,
+            "word": "忘",
+            "probability": 0.9223
+          },
+          {
+            "start": 13.96,
+            "end": 14.74,
+            "word": "れて",
+            "probability": 0.9795
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "kind": "legacy_revalidation",
+      "video_sha256": "c70a48b2e1ee1c0a839a8e83b299780bbcc96bf404e061932581acfcd0426ae1",
+      "max_line_deviation_seconds": 0.26,
+      "status": "FAIL",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "引き留める指も 汚れてる",
+          "recognized_text": "引き留める指も汚れてる。",
+          "recognized_start": 0.0,
+          "recognized_end": 2.56,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8144,
+          "word_start_index": 0,
+          "word_end_index": 10,
+          "display_start": 0.0,
+          "display_end": 2.44,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.12,
+          "max_deviation_seconds": 0.12,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "一番星が 灯る頃",
+          "recognized_text": "一番星が灯る頃。",
+          "recognized_start": 2.7,
+          "recognized_end": 7.52,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9446,
+          "word_start_index": 10,
+          "word_end_index": 17,
+          "display_start": 2.5,
+          "display_end": 7.42,
+          "start_deviation_seconds": 0.2,
+          "end_deviation_seconds": 0.1,
+          "max_deviation_seconds": 0.2,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 3,
+          "text": "きみは今日も 死んでしまう",
+          "recognized_text": "きみは今日も死んでしまう。",
+          "recognized_start": 7.64,
+          "recognized_end": 13.12,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8179,
+          "word_start_index": 17,
+          "word_end_index": 26,
+          "display_start": 7.48,
+          "display_end": 13.06,
+          "start_deviation_seconds": 0.16,
+          "end_deviation_seconds": 0.06,
+          "max_deviation_seconds": 0.16,
+          "status": "FAIL"
+        },
+        {
+          "line_number": 4,
+          "text": "忘れてゆくことでしか",
+          "recognized_text": "忘れて",
+          "recognized_start": 13.26,
+          "recognized_end": 14.74,
+          "text_match_ratio": 0.4615,
+          "mean_word_probability": 0.9509,
+          "word_start_index": 26,
+          "word_end_index": 28,
+          "display_start": 13.12,
+          "display_end": 15.0,
+          "start_deviation_seconds": 0.14,
+          "end_deviation_seconds": 0.26,
+          "max_deviation_seconds": 0.26,
+          "status": "FAIL"
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "kind": "automatic_realign_revalidation",
+      "video_sha256": "392e5abcfcb002e1c463b22e582664641a8dc17c93318285545e53c7b857010c",
+      "max_line_deviation_seconds": 0.0,
+      "status": "PASS",
+      "line_results": [
+        {
+          "line_number": 1,
+          "text": "引き留める指も 汚れてる",
+          "recognized_text": "引き留める指も汚れてる。",
+          "recognized_start": 0.0,
+          "recognized_end": 2.56,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8144,
+          "word_start_index": 0,
+          "word_end_index": 10,
+          "display_start": 0.0,
+          "display_end": 2.56,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 2,
+          "text": "一番星が 灯る頃",
+          "recognized_text": "一番星が灯る頃。",
+          "recognized_start": 2.7,
+          "recognized_end": 7.52,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.9446,
+          "word_start_index": 10,
+          "word_end_index": 17,
+          "display_start": 2.7,
+          "display_end": 7.52,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 3,
+          "text": "きみは今日も 死んでしまう",
+          "recognized_text": "きみは今日も死んでしまう。",
+          "recognized_start": 7.64,
+          "recognized_end": 13.12,
+          "text_match_ratio": 1.0,
+          "mean_word_probability": 0.8179,
+          "word_start_index": 17,
+          "word_end_index": 26,
+          "display_start": 7.64,
+          "display_end": 13.12,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        },
+        {
+          "line_number": 4,
+          "text": "忘れてゆくことでしか",
+          "recognized_text": "忘れて",
+          "recognized_start": 13.26,
+          "recognized_end": 14.74,
+          "text_match_ratio": 0.4615,
+          "mean_word_probability": 0.9509,
+          "word_start_index": 26,
+          "word_end_index": 28,
+          "display_start": 13.26,
+          "display_end": 14.74,
+          "start_deviation_seconds": 0.0,
+          "end_deviation_seconds": 0.0,
+          "max_deviation_seconds": 0.0,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "queue_mutation": false,
+  "external_publish": false,
+  "fable_review": {
+    "status": "PENDING_Fable",
+    "max_deviation_ms_checked": null,
+    "verification_strip_checked": null,
+    "decided_at": null
+  },
+  "report": "123_sync_gate.json",
+  "verification_strip": "123_verification_strip.png"
+}
